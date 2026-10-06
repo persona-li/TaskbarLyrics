@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/TaskbarLyrics.App/TaskbarLyrics.App.csproj" />
+    <Project Path="src/TaskbarLyrics.Cache/TaskbarLyrics.Cache.csproj" />
+    <Project Path="src/TaskbarLyrics.Core/TaskbarLyrics.Core.csproj" />
+    <Project Path="src/TaskbarLyrics.Gsmtc/TaskbarLyrics.Gsmtc.csproj" />
+    <Project Path="src/TaskbarLyrics.QQMusic/TaskbarLyrics.QQMusic.csproj" />
+    <Project Path="src/TaskbarLyrics.Windows/TaskbarLyrics.Windows.csproj" />
+  </Folder>
+</Solution>

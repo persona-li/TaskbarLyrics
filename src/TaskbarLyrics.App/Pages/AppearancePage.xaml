@@ -1,0 +1,210 @@
+<UserControl x:Class="TaskbarLyrics.App.Pages.AppearancePage" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:c="clr-namespace:TaskbarLyrics.App.Controls" xmlns:p="clr-namespace:TaskbarLyrics.App.Presentation" xmlns:t="clr-namespace:TaskbarLyrics.App.Themes" FontSize="14" Foreground="{DynamicResource TextPrimaryBrush}">
+    <UserControl.Resources>
+        <Style x:Key="PalettePresetButton" TargetType="Button" BasedOn="{StaticResource GhostButton}">
+            <Setter Property="Width" Value="38" /><Setter Property="Height" Value="38" /><Setter Property="Padding" Value="0" /><Setter Property="Margin" Value="0,0,4,0" />
+            <Setter Property="Template"><Setter.Value><ControlTemplate TargetType="Button">
+                <Grid x:Name="Root" Background="Transparent">
+                    <Ellipse x:Name="Ring" Width="34" Height="34" Stroke="Transparent" StrokeThickness="1.5" />
+                    <Ellipse x:Name="PresetSwatch" Width="26" Height="26"><Ellipse.Fill><LinearGradientBrush StartPoint="0,0" EndPoint="1,1"><GradientStop Color="{Binding NormalColor}" Offset="0" /><GradientStop Color="{Binding NormalColor}" Offset="0.5" /><GradientStop Color="{Binding HighlightColor}" Offset="0.5" /><GradientStop Color="{Binding HighlightColor}" Offset="1" /></LinearGradientBrush></Ellipse.Fill></Ellipse>
+                </Grid>
+                <ControlTemplate.Triggers>
+                    <Trigger Property="IsMouseOver" Value="True"><Setter TargetName="Ring" Property="Stroke" Value="{Binding NormalColor}" /></Trigger>
+                    <Trigger Property="IsPressed" Value="True"><Setter TargetName="Ring" Property="StrokeThickness" Value="3" /></Trigger>
+                    <DataTrigger Binding="{Binding Selected}" Value="True"><Setter TargetName="Ring" Property="Stroke" Value="{Binding NormalColor}" /></DataTrigger>
+                </ControlTemplate.Triggers>
+            </ControlTemplate></Setter.Value></Setter>
+        </Style>
+        <Style x:Key="PaletteDisclosure" TargetType="ToggleButton">
+            <Setter Property="Height" Value="38" /><Setter Property="Padding" Value="8,0" />
+            <Setter Property="Foreground" Value="{DynamicResource TextSecondaryBrush}" />
+            <Setter Property="FocusVisualStyle" Value="{StaticResource KeyboardFocus}" />
+            <Setter Property="Template"><Setter.Value>
+                <ControlTemplate TargetType="ToggleButton">
+                    <Border x:Name="Root" Background="Transparent" Padding="{TemplateBinding Padding}" CornerRadius="{DynamicResource AppearanceControlCornerRadius}">
+                        <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                            <ContentPresenter VerticalAlignment="Center" />
+                            <Path x:Name="DisclosureArrow" Stroke="{DynamicResource TextSecondaryBrush}" Margin="10,0,0,0" VerticalAlignment="Center" Data="M3,1 L7,5 L3,9" Width="10" Height="10" Stretch="None" RenderTransformOrigin="0.5,0.5" c:Motion.DisclosureOpen="{Binding IsChecked, RelativeSource={RelativeSource TemplatedParent}}" StrokeThickness="1.5" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" />
+                        </StackPanel>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value></Setter>
+        </Style>
+        <Style x:Key="PaletteHueStyle" TargetType="c:PaletteHueSlider" BasedOn="{StaticResource {x:Type Slider}}">
+            <Setter Property="Height" Value="34" />
+            <Setter Property="Template"><Setter.Value><ControlTemplate TargetType="c:PaletteHueSlider">
+                <Grid Margin="0,0" Height="30">
+                    <Border x:Name="HueRail" Background="{TemplateBinding Background}" Height="12" Margin="12,0" CornerRadius="6" VerticalAlignment="Center" t:RoundedClip.Enabled="True" />
+                    <Track x:Name="PART_Track" Minimum="{TemplateBinding Minimum}" Maximum="{TemplateBinding Maximum}" Value="{TemplateBinding Value}" Orientation="Horizontal">
+                        <Track.DecreaseRepeatButton><RepeatButton Command="Slider.DecreaseLarge" Focusable="False"><RepeatButton.Template><ControlTemplate TargetType="RepeatButton"><Border Background="Transparent" /></ControlTemplate></RepeatButton.Template></RepeatButton></Track.DecreaseRepeatButton>
+                        <Track.Thumb><Thumb Width="24" Height="24"><Thumb.Template><ControlTemplate TargetType="Thumb"><Grid><Ellipse x:Name="ThumbOutline" Fill="{DynamicResource SurfaceBrush}" Stroke="{DynamicResource TextMutedBrush}" StrokeThickness="1" /><Ellipse x:Name="ThumbColor" Margin="3" Fill="{Binding NormalColor}" /></Grid></ControlTemplate></Thumb.Template></Thumb></Track.Thumb>
+                        <Track.IncreaseRepeatButton><RepeatButton Command="Slider.IncreaseLarge" Focusable="False"><RepeatButton.Template><ControlTemplate TargetType="RepeatButton"><Border Background="Transparent" /></ControlTemplate></RepeatButton.Template></RepeatButton></Track.IncreaseRepeatButton>
+                    </Track>
+                </Grid>
+            </ControlTemplate></Setter.Value></Setter>
+        </Style>
+        <p:ChoiceEqualsConverter x:Key="ChoiceEquals" />
+        <Style x:Key="SecondaryButton" TargetType="Button" BasedOn="{StaticResource SecondaryButton}"><Setter Property="c:Motion.HoverBrush" Value="{DynamicResource PlaybackHoverBrush}" /></Style>
+        <Style x:Key="GhostButton" TargetType="Button" BasedOn="{StaticResource GhostButton}"><Setter Property="c:Motion.HoverBrush" Value="{DynamicResource PlaybackHoverBrush}" /></Style>
+        <Style x:Key="Segment" TargetType="RadioButton">
+            <Setter Property="Foreground" Value="{DynamicResource TextSecondaryBrush}" />
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="Height" Value="32" />
+            <Setter Property="Width" Value="76" />
+            <Setter Property="Margin" Value="0" />
+            <Setter Property="FocusVisualStyle" Value="{StaticResource KeyboardFocus}" />
+            <Setter Property="Template"><Setter.Value>
+                <ControlTemplate TargetType="RadioButton">
+                    <Grid><Border x:Name="Root" Background="{TemplateBinding Background}" CornerRadius="0" BorderBrush="Transparent" BorderThickness="0">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                    </Border><Border x:Name="SegmentOutline" BorderBrush="{DynamicResource SelectionOutlineBrush}" BorderThickness="1" Visibility="Collapsed" IsHitTestVisible="False" /></Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True"><Setter TargetName="Root" Property="Background" Value="{DynamicResource PlaybackHoverBrush}" /></Trigger>
+                        <Trigger Property="IsChecked" Value="True">
+                            <Setter TargetName="Root" Property="Background" Value="Transparent" />
+                            <Setter TargetName="SegmentOutline" Property="Visibility" Value="Visible" />
+                            <Setter Property="Foreground" Value="{DynamicResource TextPrimaryBrush}" />
+                            <Setter Property="FontWeight" Value="Medium" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value></Setter>
+        </Style>
+        <Style x:Key="AlignmentSegment" TargetType="RadioButton" BasedOn="{StaticResource Segment}">
+            <Setter Property="Width" Value="38" /><Setter Property="Height" Value="34" />
+            <Setter Property="FontFamily" Value="Segoe MDL2 Assets" /><Setter Property="FontSize" Value="18" />
+            <Setter Property="Template"><Setter.Value>
+                <ControlTemplate TargetType="RadioButton">
+                    <Border x:Name="Root" Background="Transparent" CornerRadius="{DynamicResource AppearanceControlCornerRadius}" BorderBrush="Transparent" BorderThickness="1">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True"><Setter TargetName="Root" Property="Background" Value="{DynamicResource PlaybackHoverBrush}" /></Trigger>
+                        <Trigger Property="IsChecked" Value="True"><Setter TargetName="Root" Property="Background" Value="{DynamicResource PlaybackPressedBrush}" /><Setter TargetName="Root" Property="BorderBrush" Value="{DynamicResource SelectionOutlineBrush}" /><Setter Property="Foreground" Value="{DynamicResource TextPrimaryBrush}" /></Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value></Setter>
+        </Style>
+        <Style TargetType="c:SettingRow">
+            <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+            <Setter Property="MinHeight" Value="44" />
+            <Setter Property="Template"><Setter.Value>
+                <ControlTemplate TargetType="c:SettingRow">
+                    <Grid Margin="0,5">
+                        <Grid.ColumnDefinitions><ColumnDefinition Width="*" MinWidth="74" /><ColumnDefinition Width="Auto" /></Grid.ColumnDefinitions>
+                        <TextBlock Text="{TemplateBinding Label}" FontSize="15" VerticalAlignment="Center" Margin="0,0,12,0" />
+                        <ContentPresenter Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Right" MaxWidth="320" />
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value></Setter>
+        </Style>
+        <Style x:Key="LanguagesExpander" TargetType="Expander" BasedOn="{StaticResource {x:Type Expander}}">
+            <Setter Property="Margin" Value="0,6,0,0" />
+            <Setter Property="Template"><Setter.Value>
+                <ControlTemplate TargetType="Expander">
+                    <StackPanel>
+                        <ToggleButton IsChecked="{Binding IsExpanded, RelativeSource={RelativeSource TemplatedParent}, Mode=TwoWay}" FocusVisualStyle="{StaticResource KeyboardFocus}" Height="38" Margin="-12,0,-10,0" AutomationProperties.Name="按语言设置">
+                            <ToggleButton.Template><ControlTemplate TargetType="ToggleButton">
+                                <Border x:Name="Root" Background="Transparent" CornerRadius="{DynamicResource AppearanceControlCornerRadius}" Padding="12,0"><Grid><TextBlock Text="按语言设置" Foreground="{DynamicResource TextMutedBrush}" FontSize="15" VerticalAlignment="Center" />
+                                        <Path x:Name="Arrow" Stroke="{DynamicResource TextSecondaryBrush}" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,5,0" Data="M3,1 L7,5 L3,9" Width="10" Height="10" Stretch="None" RenderTransformOrigin="0.5,0.5" c:Motion.DisclosureOpen="{Binding IsChecked, RelativeSource={RelativeSource TemplatedParent}}" StrokeThickness="1.5" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" />
+                                    </Grid>
+                                </Border>
+                            </ControlTemplate></ToggleButton.Template>
+                        </ToggleButton>
+                        <Border x:Name="ExpansionHost" Height="0" Visibility="Collapsed" ClipToBounds="True"><ContentPresenter x:Name="ExpansionContent" Content="{TemplateBinding Content}" /></Border>
+                    </StackPanel>
+                </ControlTemplate>
+            </Setter.Value></Setter>
+        </Style>
+    </UserControl.Resources>
+    <Grid Margin="28,28,28,18">
+        <Grid.RowDefinitions><RowDefinition Height="Auto" /><RowDefinition Height="*" /></Grid.RowDefinitions>
+        <TextBlock Text="外观" FontSize="26" FontWeight="SemiBold" Margin="4,0,0,18" />
+        <Border x:Name="AppearanceCard" Grid.Row="1" Background="{DynamicResource SurfaceBrush}" BorderBrush="{DynamicResource BorderSubtleBrush}" BorderThickness="1" CornerRadius="{DynamicResource AppearanceControlCornerRadius}">
+            <Border.Style><Style TargetType="Border"><Setter Property="VerticalAlignment" Value="Stretch" /><Style.Triggers><DataTrigger Binding="{Binding IsChecked, ElementName=ColorsTab}" Value="True"><Setter Property="VerticalAlignment" Value="Top" /></DataTrigger></Style.Triggers></Style></Border.Style>
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition Height="Auto" /><RowDefinition Height="Auto" /><RowDefinition Height="Auto" /><RowDefinition Height="*" /></Grid.RowDefinitions>
+                <c:LyricsPreview x:Name="Preview" Config="{Binding PreviewConfig}" State="{Binding State}" StateReader="{Binding PreviewReader}" Margin="24,16,24,12" />
+                <Border Grid.Row="1" Height="1" Background="{DynamicResource BorderSubtleBrush}" />
+                <Border x:Name="SectionTabs" Grid.Row="2" HorizontalAlignment="Right" Margin="24,16,24,8" Padding="0" t:RoundedClip.Enabled="True" Background="{DynamicResource SurfaceAltBrush}" CornerRadius="{DynamicResource AppearanceControlCornerRadius}">
+                    <Grid>
+                    <Border x:Name="SectionIndicator" Width="76" HorizontalAlignment="Left" Background="{DynamicResource PlaybackPressedBrush}" IsHitTestVisible="False"><Border.RenderTransform><TranslateTransform x:Name="IndicatorTranslate" /></Border.RenderTransform></Border>
+                    <StackPanel Orientation="Horizontal">
+                        <RadioButton x:Name="TextTab" Content="文字" GroupName="AppearanceSection" Style="{StaticResource Segment}" IsChecked="True" Checked="SectionChanged" />
+                        <RadioButton x:Name="ColorsTab" Content="颜色" GroupName="AppearanceSection" Style="{StaticResource Segment}" Checked="SectionChanged" />
+                        <RadioButton x:Name="PositionTab" Content="位置" GroupName="AppearanceSection" Style="{StaticResource Segment}" Checked="SectionChanged" />
+                    </StackPanel>
+                    </Grid>
+                </Border>
+                <ScrollViewer x:Name="SettingsScroll" Grid.Row="3" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled" Padding="12,0,0,16">
+                    <Grid x:Name="SectionContent" Margin="12,0,10,0">
+                        <Grid.RenderTransform><TranslateTransform x:Name="ContentTranslate" /></Grid.RenderTransform>
+                        <StackPanel x:Name="TextSettings" Visibility="{Binding IsChecked, ElementName=TextTab, Converter={StaticResource BoolVisibility}}">
+                            <c:SettingRow Label="字体"><c:FontPicker x:Name="PrimaryFontPicker" Text="{Binding ChineseFont, UpdateSourceTrigger=LostFocus}" Width="260" Background="Transparent" BorderThickness="0" AutomationProperties.Name="中文字体" /></c:SettingRow>
+                            <c:SettingRow Label="字号">
+                                <Grid Width="260"><Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions><Slider x:Name="FontSizeSlider" Value="{Binding FontSize}" Minimum="10" Maximum="72" TickFrequency="1" IsSnapToTickEnabled="True" VerticalAlignment="Center" AutomationProperties.Name="歌词字号" Margin="0,0,12,0" />
+                                    <c:NumberEditor Grid.Column="1" Value="{Binding FontSize}" Minimum="10" Maximum="72" Step="1" Unit="px" AccessibleName="歌词字号" Compact="True" /></Grid>
+                            </c:SettingRow>
+                            <c:SettingRow Label="对齐"><Border CornerRadius="{DynamicResource AppearanceControlCornerRadius}" t:RoundedClip.Enabled="True">
+                                <StackPanel Orientation="Horizontal">
+                                    <RadioButton x:Name="AlignLeft" Content="&#xE8E4;" GroupName="LyricAlignment" Style="{StaticResource AlignmentSegment}" IsChecked="{Binding Alignment, Converter={StaticResource ChoiceEquals}, ConverterParameter=Left, Mode=TwoWay}" ToolTip="左对齐" AutomationProperties.Name="左对齐" />
+                                    <RadioButton x:Name="AlignCenter" Content="&#xE8E3;" GroupName="LyricAlignment" Style="{StaticResource AlignmentSegment}" IsChecked="{Binding Alignment, Converter={StaticResource ChoiceEquals}, ConverterParameter=Center, Mode=TwoWay}" ToolTip="居中" AutomationProperties.Name="居中对齐" />
+                                    <RadioButton x:Name="AlignRight" Content="&#xE8E2;" GroupName="LyricAlignment" Style="{StaticResource AlignmentSegment}" IsChecked="{Binding Alignment, Converter={StaticResource ChoiceEquals}, ConverterParameter=Right, Mode=TwoWay}" ToolTip="右对齐" AutomationProperties.Name="右对齐" />
+                                </StackPanel></Border>
+                            </c:SettingRow>
+                            <c:SettingRow Label="逐字高亮"><CheckBox IsChecked="{Binding KaraokeEnabled}" AutomationProperties.Name="逐字高亮" /></c:SettingRow>
+                            <c:SettingRow Label="长句滚动"><CheckBox IsChecked="{Binding AutoPan}" AutomationProperties.Name="长句滚动" /></c:SettingRow>
+                            <Expander x:Name="LanguageSettings" Header="按语言设置" Style="{StaticResource LanguagesExpander}">
+                                <StackPanel>
+                                    <c:SettingRow Label="西文"><c:FontPicker Text="{Binding LatinFont, UpdateSourceTrigger=LostFocus}" Width="260" AutomationProperties.Name="西文字体" /></c:SettingRow>
+                                    <c:SettingRow Label="日文"><c:FontPicker Text="{Binding JapaneseFont, UpdateSourceTrigger=LostFocus}" Width="260" AutomationProperties.Name="日文字体" /></c:SettingRow>
+                                    <c:SettingRow Label="韩文"><c:FontPicker Text="{Binding KoreanFont, UpdateSourceTrigger=LostFocus}" Width="260" AutomationProperties.Name="韩文字体" /></c:SettingRow>
+                                    <c:SettingRow Label="西里尔字母"><c:FontPicker Text="{Binding CyrillicFont, UpdateSourceTrigger=LostFocus}" Width="260" AutomationProperties.Name="西里尔字母字体" /></c:SettingRow>
+                                    <c:SettingRow Label="阿拉伯文"><c:FontPicker Text="{Binding ArabicFont, UpdateSourceTrigger=LostFocus}" Width="260" AutomationProperties.Name="阿拉伯文字体" /></c:SettingRow>
+                                    <c:SettingRow Label="其他语言"><c:FontPicker Text="{Binding OtherFont, UpdateSourceTrigger=LostFocus}" Width="260" AutomationProperties.Name="其他语言字体" /></c:SettingRow>
+                                </StackPanel>
+                            </Expander>
+                        </StackPanel>
+                        <StackPanel x:Name="ColorSettings" Visibility="{Binding IsChecked, ElementName=ColorsTab, Converter={StaticResource BoolVisibility}}">
+                            <TextBlock Text="配色" FontSize="15" Margin="0,10,0,10" />
+                            <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="*" /><ColumnDefinition Width="Auto" /></Grid.ColumnDefinitions>
+                                <ItemsControl x:Name="PaletteChoices" ItemsSource="{Binding PalettePresets}" Margin="0,0,12,0">
+                                    <ItemsControl.ItemsPanel><ItemsPanelTemplate><WrapPanel /></ItemsPanelTemplate></ItemsControl.ItemsPanel>
+                                    <ItemsControl.ItemTemplate><DataTemplate><Button Style="{StaticResource PalettePresetButton}" Command="{Binding DataContext.PresetCommand, RelativeSource={RelativeSource AncestorType=ItemsControl}}" CommandParameter="{Binding}" ToolTip="{Binding Name}" AutomationProperties.Name="{Binding Name}" /></DataTemplate></ItemsControl.ItemTemplate>
+                                </ItemsControl>
+                                <ToggleButton x:Name="CustomPaletteToggle" Grid.Column="1" IsChecked="{Binding CustomPaletteExpanded, Mode=TwoWay}" Content="自定义" Style="{StaticResource PaletteDisclosure}" VerticalAlignment="Top" />
+                            </Grid>
+                            <StackPanel x:Name="CustomPaletteSettings" Visibility="Collapsed" c:Motion.ContentOpen="{Binding IsChecked, ElementName=CustomPaletteToggle}" Margin="0,4,0,0">
+                                
+                                <c:PaletteHueSlider x:Name="PaletteHueControl" Style="{StaticResource PaletteHueStyle}" Minimum="0" Maximum="360" SmallChange="1" LargeChange="15" Value="{Binding PaletteHue}" AutomationProperties.Name="调整色调" />
+                                <ToggleButton x:Name="SeparateColors" IsChecked="{Binding ManualColorsExpanded, Mode=TwoWay}" Content="手动设置" Style="{StaticResource PaletteDisclosure}" HorizontalAlignment="Right" Margin="0,2,0,0" />
+                                <Grid x:Name="ManualColors" Visibility="Collapsed" c:Motion.ContentOpen="{Binding IsChecked, ElementName=SeparateColors}" Margin="0" MinHeight="44">
+                                    <Grid.ColumnDefinitions><ColumnDefinition Width="*" /><ColumnDefinition Width="Auto" /></Grid.ColumnDefinitions>
+                                    <TextBlock Text="歌词颜色" FontSize="15" VerticalAlignment="Center" Margin="0,0,16,0" />
+                                    <StackPanel Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center">
+                                        <TextBlock Text="未唱" FontSize="14" Foreground="{DynamicResource TextSecondaryBrush}" VerticalAlignment="Center" Margin="0,0,8,0" />
+                                        <c:ColorEditor RecentColors="{Binding RecentNormalColors}" RememberColorCommand="{Binding RememberNormalColorCommand}" Hex="{Binding NormalColor}" AccessibleName="未唱歌词颜色" />
+                                        <TextBlock Text="已唱" FontSize="14" Foreground="{DynamicResource TextSecondaryBrush}" VerticalAlignment="Center" Margin="24,0,8,0" />
+                                        <c:ColorEditor RecentColors="{Binding RecentHighlightColors}" RememberColorCommand="{Binding RememberHighlightColorCommand}" Hex="{Binding HighlightColor}" AccessibleName="已唱歌词颜色" />
+                                    </StackPanel>
+                                </Grid>
+                            </StackPanel>
+                            <Border Height="1" Background="{DynamicResource BorderSubtleBrush}" Margin="0,10,0,6" />
+                            <c:SettingRow Label="文字阴影"><CheckBox x:Name="ShadowToggle" IsChecked="{Binding ShadowEnabled}" AutomationProperties.Name="文字阴影" /></c:SettingRow>
+                            <c:SettingRow Label="阴影颜色" Visibility="Collapsed" c:Motion.ContentOpen="{Binding ShadowEnabled}"><c:ColorEditor RecentColors="{Binding RecentShadowColors}" RememberColorCommand="{Binding RememberShadowColorCommand}" Hex="{Binding ShadowColor}" AccessibleName="阴影颜色" /></c:SettingRow>
+                        </StackPanel>
+                        <StackPanel x:Name="PositionSettings" Visibility="{Binding IsChecked, ElementName=PositionTab, Converter={StaticResource BoolVisibility}}">
+                            <c:SettingRow Label="自动适应"><CheckBox IsChecked="{Binding AutoFit}" AutomationProperties.Name="自动适应任务栏空间" /></c:SettingRow>
+                            <c:SettingRow Label="垂直位置"><Grid Width="260"><Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="100"/></Grid.ColumnDefinitions><Slider Value="{Binding VerticalOffset}" Minimum="-10" Maximum="10" TickFrequency="1" SmallChange="1" IsSnapToTickEnabled="True" VerticalAlignment="Center" Margin="0,0,12,0" AutomationProperties.Name="垂直位置滑块"/><c:NumberEditor Grid.Column="1" Value="{Binding VerticalOffset}" Minimum="-10" Maximum="10" Step="1" Unit="px" AccessibleName="垂直位置" Compact="True" /></Grid></c:SettingRow>
+                            <c:SettingRow Label="左边距" Visibility="{Binding ShowManualLayout, Converter={StaticResource BoolVisibility}}"><Grid Width="260"><Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="100"/></Grid.ColumnDefinitions><Slider Value="{Binding LeftMargin}" Minimum="0" Maximum="80" TickFrequency="1" SmallChange="1" IsSnapToTickEnabled="True" VerticalAlignment="Center" Margin="0,0,12,0" AutomationProperties.Name="左边距滑块"/><c:NumberEditor Grid.Column="1" Value="{Binding LeftMargin}" Minimum="0" Maximum="80" Step="1" Unit="px" AccessibleName="左边距" Compact="True" /></Grid></c:SettingRow>
+                            <c:SettingRow Label="右边距" Visibility="{Binding ShowManualLayout, Converter={StaticResource BoolVisibility}}"><Grid Width="260"><Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="100"/></Grid.ColumnDefinitions><Slider Value="{Binding RightMargin}" Minimum="0" Maximum="200" TickFrequency="1" SmallChange="1" IsSnapToTickEnabled="True" VerticalAlignment="Center" Margin="0,0,12,0" AutomationProperties.Name="右边距滑块"/><c:NumberEditor Grid.Column="1" Value="{Binding RightMargin}" Minimum="0" Maximum="200" Step="1" Unit="px" AccessibleName="右边距" Compact="True" /></Grid></c:SettingRow>
+                            <c:SettingRow Label="最小宽度" Visibility="{Binding ShowManualLayout, Converter={StaticResource BoolVisibility}}"><Grid Width="260"><Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="100"/></Grid.ColumnDefinitions><Slider Value="{Binding MinWidth}" Minimum="200" Maximum="1800" TickFrequency="50" SmallChange="50" IsSnapToTickEnabled="True" VerticalAlignment="Center" Margin="0,0,12,0" AutomationProperties.Name="最小宽度滑块"/><c:NumberEditor Grid.Column="1" Value="{Binding MinWidth}" Minimum="200" Maximum="1800" Step="50" Unit="px" AccessibleName="最小宽度" Compact="True" /></Grid></c:SettingRow>
+                            <c:SettingRow Label="最大宽度" Visibility="{Binding ShowManualLayout, Converter={StaticResource BoolVisibility}}"><Grid Width="260"><Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="100"/></Grid.ColumnDefinitions><Slider Value="{Binding MaxWidth}" Minimum="300" Maximum="2400" TickFrequency="50" SmallChange="50" IsSnapToTickEnabled="True" VerticalAlignment="Center" Margin="0,0,12,0" AutomationProperties.Name="最大宽度滑块"/><c:NumberEditor Grid.Column="1" Value="{Binding MaxWidth}" Minimum="300" Maximum="2400" Step="50" Unit="px" AccessibleName="最大宽度" Compact="True" /></Grid></c:SettingRow>
+                            <TextBlock Text="未能检测空闲区域" Style="{StaticResource CaptionText}" Margin="0,8,0,0" Visibility="{Binding ShowFallbackWidth, Converter={StaticResource BoolVisibility}}" />
+                            <c:SettingRow Label="手动设置宽度" Visibility="{Binding ShowFallbackWidth, Converter={StaticResource BoolVisibility}}"><Grid Width="260"><Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="100"/></Grid.ColumnDefinitions><Slider Value="{Binding FallbackWidthPercent}" Minimum="20" Maximum="69" TickFrequency="1" SmallChange="1" IsSnapToTickEnabled="True" VerticalAlignment="Center" Margin="0,0,12,0" AutomationProperties.Name="手动设置宽度滑块"/><c:NumberEditor Grid.Column="1" Value="{Binding FallbackWidthPercent}" Minimum="20" Maximum="69" Step="1" Unit="%" AccessibleName="手动设置宽度" Compact="True" /></Grid></c:SettingRow>
+                        </StackPanel>
+                    </Grid>
+                </ScrollViewer>
+            </Grid>
+        </Border>
+    </Grid>
+</UserControl>

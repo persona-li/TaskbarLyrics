@@ -1,0 +1,6 @@
+<Project>
+  <PropertyGroup>
+    <!-- Keep local user/repository paths out of compiler metadata and symbols. -->
+    <PathMap>$(MSBuildThisFileDirectory)=/_/TaskbarLyrics/</PathMap>
+  </PropertyGroup>
+</Project>

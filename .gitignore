@@ -1,0 +1,81 @@
+﻿# Build
+bin/
+obj/
+out/
+artifacts/
+publish/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+*.exe
+*.dll
+*.pdb
+*.cache
+# Windows case-insensitive matching must not hide the Cache source project.
+!src/TaskbarLyrics.Cache/
+!src/TaskbarLyrics.Cache/*.cs
+!src/TaskbarLyrics.Cache/*.csproj
+*.log
+*.tmp
+
+# VS / IDE
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.idea/
+*.rsuser
+
+# NuGet
+*.nupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Test / coverage
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+coverage*/
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Local secrets / env
+*.local.json
+appsettings.*.local.json
+.env
+.env.*
+
+# Publish / tools output
+**/publish/
+**/nupkg/
+
+# WPF / MSBuild temp projects
+*_wpftmp.csproj
+*.wpftmp.csproj
+
+# Local engineering notes and personal development context (keep on disk only)
+/AGENTS.md
+/PROMOT.md
+/design-qa.md
+/docs/HARNESS_ENGINEERING.md
+/docs/UI_REDESIGN.md
+
+# User data, private signing material and local screenshots
+/Data/
+/Logs/
+/Cache/
+*.pfx
+*.p12
+*.key
+codex-clipboard-*

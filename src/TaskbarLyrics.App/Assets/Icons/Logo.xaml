@@ -1,0 +1,62 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!--
+      Brand mark: rounded taskbar bar + lyric highlight sweep + small note.
+      Clean, flat, readable at 16–32px when rasterized.
+    -->
+    <DrawingImage x:Key="AppLogoDrawing">
+        <DrawingImage.Drawing>
+            <DrawingGroup>
+                <!-- Soft plate -->
+                <GeometryDrawing Brush="#1A2230">
+                    <GeometryDrawing.Geometry>
+                        <RectangleGeometry Rect="2,2,28,28" RadiusX="7" RadiusY="7"/>
+                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+                <!-- Taskbar bar -->
+                <GeometryDrawing Brush="#3A4658">
+                    <GeometryDrawing.Geometry>
+                        <RectangleGeometry Rect="6,22,20,4" RadiusX="2" RadiusY="2"/>
+                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+                <!-- Lyric lines -->
+                <GeometryDrawing Brush="#6B778A">
+                    <GeometryDrawing.Geometry>
+                        <RectangleGeometry Rect="7,10,16,2" RadiusX="1" RadiusY="1"/>
+                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+                <GeometryDrawing Brush="#6B778A">
+                    <GeometryDrawing.Geometry>
+                        <RectangleGeometry Rect="7,15,12,2" RadiusX="1" RadiusY="1"/>
+                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+                <!-- KTV highlight sweep on first line -->
+                <GeometryDrawing Brush="#6C9EFF">
+                    <GeometryDrawing.Geometry>
+                        <RectangleGeometry Rect="7,10,9,2" RadiusX="1" RadiusY="1"/>
+                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+                <!-- Note head -->
+                <GeometryDrawing Brush="#FFD54F">
+                    <GeometryDrawing.Geometry>
+                        <EllipseGeometry Center="22,12" RadiusX="2.6" RadiusY="2.2"/>
+                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+                <!-- Note stem -->
+                <GeometryDrawing Brush="#FFD54F" Pen="{x:Null}">
+                    <GeometryDrawing.Geometry>
+                        <RectangleGeometry Rect="24,5.5,1.5,7"/>
+                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+
+    <Style x:Key="AppLogoImage" TargetType="Image">
+        <Setter Property="Source" Value="{StaticResource AppLogoDrawing}"/>
+        <Setter Property="Stretch" Value="Uniform"/>
+        <Setter Property="Width" Value="28"/>
+        <Setter Property="Height" Value="28"/>
+        <Setter Property="SnapsToDevicePixels" Value="True"/>
+    </Style>
+</ResourceDictionary>

@@ -1,0 +1,55 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Color x:Key="BgColor">#FFFFFFFF</Color>
+    <SolidColorBrush x:Key="BgBrush" Color="{StaticResource BgColor}" />
+    <Color x:Key="ChromeColor">#FFF3F3F3</Color>
+    <SolidColorBrush x:Key="ChromeBrush" Color="{StaticResource ChromeColor}" />
+    <Color x:Key="SurfaceColor">#FFFFFFFF</Color>
+    <SolidColorBrush x:Key="SurfaceBrush" Color="{StaticResource SurfaceColor}" />
+    <Color x:Key="SurfaceAltColor">#FFF5F5F5</Color>
+    <SolidColorBrush x:Key="SurfaceAltBrush" Color="{StaticResource SurfaceAltColor}" />
+    <Color x:Key="SurfaceHoverColor">#FFEEEEF0</Color>
+    <SolidColorBrush x:Key="SurfaceHoverBrush" Color="{StaticResource SurfaceHoverColor}" />
+    <Color x:Key="SurfacePressedColor">#FFE3E3E6</Color>
+    <SolidColorBrush x:Key="SurfacePressedBrush" Color="{StaticResource SurfacePressedColor}" />
+    <Color x:Key="BorderColor">#FFC6C6CB</Color>
+    <SolidColorBrush x:Key="BorderBrush" Color="{StaticResource BorderColor}" />
+    <Color x:Key="BorderSubtleColor">#FFE6E6E9</Color>
+    <SolidColorBrush x:Key="BorderSubtleBrush" Color="{StaticResource BorderSubtleColor}" />
+    <Color x:Key="TextPrimaryColor">#FF1D1D1F</Color>
+    <SolidColorBrush x:Key="TextPrimaryBrush" Color="{StaticResource TextPrimaryColor}" />
+    <Color x:Key="TextSecondaryColor">#FF59595E</Color>
+    <SolidColorBrush x:Key="TextSecondaryBrush" Color="{StaticResource TextSecondaryColor}" />
+    <Color x:Key="TextMutedColor">#FF68686D</Color>
+    <SolidColorBrush x:Key="TextMutedBrush" Color="{StaticResource TextMutedColor}" />
+    <Color x:Key="AccentColor">#FF0065CE</Color>
+    <SolidColorBrush x:Key="AccentBrush" Color="{StaticResource AccentColor}" />
+    <Color x:Key="AccentHoverColor">#FF0058B5</Color>
+    <SolidColorBrush x:Key="AccentHoverBrush" Color="{StaticResource AccentHoverColor}" />
+    <Color x:Key="AccentPressedColor">#FF004B9B</Color>
+    <SolidColorBrush x:Key="AccentPressedBrush" Color="{StaticResource AccentPressedColor}" />
+    <Color x:Key="AccentSoftColor">#100065CE</Color>
+    <SolidColorBrush x:Key="AccentSoftBrush" Color="{StaticResource AccentSoftColor}" />
+    <Color x:Key="AccentTextColor">#FFFFFFFF</Color>
+    <SolidColorBrush x:Key="AccentTextBrush" Color="{StaticResource AccentTextColor}" />
+    <Color x:Key="DangerColor">#FFB32535</Color>
+    <SolidColorBrush x:Key="DangerBrush" Color="{StaticResource DangerColor}" />
+    <Color x:Key="DangerHoverColor">#FF942030</Color>
+    <SolidColorBrush x:Key="DangerHoverBrush" Color="{StaticResource DangerHoverColor}" />
+    <Color x:Key="DangerSoftColor">#0EB32535</Color>
+    <SolidColorBrush x:Key="DangerSoftBrush" Color="{StaticResource DangerSoftColor}" />
+    <Color x:Key="SuccessColor">#FF237541</Color>
+    <SolidColorBrush x:Key="SuccessBrush" Color="{StaticResource SuccessColor}" />
+    <Color x:Key="WarningColor">#FF825A10</Color>
+    <SolidColorBrush x:Key="WarningBrush" Color="{StaticResource WarningColor}" />
+    <Color x:Key="NavSelectedColor">#FFDEDEE1</Color>
+    <SolidColorBrush x:Key="NavSelectedBrush" Color="{StaticResource NavSelectedColor}" />
+    <Color x:Key="ShadowColor">#16000000</Color>
+    <SolidColorBrush x:Key="ShadowBrush" Color="{StaticResource ShadowColor}" />
+    <SolidColorBrush x:Key="SidebarThumbBrush" Color="#FFF5F5F7" />
+    <SolidColorBrush x:Key="PlaybackHoverBrush" Color="#FFEAF3FF" />
+    <SolidColorBrush x:Key="PlaybackPressedBrush" Color="#FFD4E7FF" />
+    <Color x:Key="PlaybackAccentColor">#FF6C91CB</Color>
+    <SolidColorBrush x:Key="PlaybackLyricBrush" Color="{StaticResource PlaybackAccentColor}" />
+    <SolidColorBrush x:Key="PlaybackIndicatorBrush" Color="{StaticResource PlaybackAccentColor}" />
+    <SolidColorBrush x:Key="SelectionOutlineBrush" Color="Transparent" />
+</ResourceDictionary>

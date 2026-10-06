@@ -1,0 +1,108 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:c="clr-namespace:TaskbarLyrics.App.Controls">
+    <Style TargetType="ToolTip">
+        <Setter Property="OverridesDefaultStyle" Value="True" />
+        <Setter Property="HasDropShadow" Value="False" />
+        <Setter Property="Background" Value="{DynamicResource SurfaceBrush}" />
+        <Setter Property="Foreground" Value="{DynamicResource TextPrimaryBrush}" />
+        <Setter Property="BorderBrush" Value="{DynamicResource BorderSubtleBrush}" />
+        <Setter Property="BorderThickness" Value="1" />
+        <Setter Property="FontFamily" Value="{StaticResource AppFont}" />
+        <Setter Property="FontSize" Value="14" />
+        <Setter Property="FontWeight" Value="Normal" />
+        <Setter Property="Padding" Value="9,5" />
+        <Setter Property="MaxWidth" Value="340" />
+        <Setter Property="HorizontalOffset" Value="0" />
+        <Setter Property="VerticalOffset" Value="6" />
+        <Setter Property="Template"><Setter.Value><ControlTemplate TargetType="ToolTip">
+            <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}"
+                    BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="{DynamicResource AppearanceControlCornerRadius}"
+                    Padding="{TemplateBinding Padding}" SnapsToDevicePixels="True">
+                <ContentPresenter><ContentPresenter.ContentTemplate><DataTemplate><TextBlock Text="{Binding}" TextWrapping="Wrap" /></DataTemplate></ContentPresenter.ContentTemplate></ContentPresenter>
+            </Border>
+        </ControlTemplate></Setter.Value></Setter>
+    </Style>
+    <BooleanToVisibilityConverter x:Key="BoolVisibility" />
+    <!-- Suppress both custom and WPF fallback focus adorners after modifier keys. -->
+    <Style x:Key="{x:Static SystemParameters.FocusVisualStyleKey}" TargetType="Control">
+        <Setter Property="Template"><Setter.Value><ControlTemplate><Grid /></ControlTemplate></Setter.Value></Setter>
+    </Style>
+    <Style x:Key="KeyboardFocus" TargetType="Control" BasedOn="{StaticResource {x:Static SystemParameters.FocusVisualStyleKey}}" />
+    <Style x:Key="SettingLabel" TargetType="TextBlock" BasedOn="{StaticResource BodyText}">
+        <Setter Property="Margin" Value="0,0,0,8" />
+        <Setter Property="FontWeight" Value="SemiBold" />
+    </Style>
+    <Style x:Key="PageHint" TargetType="TextBlock" BasedOn="{StaticResource CaptionText}">
+        <Setter Property="Margin" Value="0,0,0,24" />
+        <Setter Property="FontSize" Value="13" />
+    </Style>
+    <Style TargetType="ProgressBar">
+        <Setter Property="Height" Value="2" />
+        <Setter Property="Foreground" Value="{DynamicResource AccentBrush}" />
+        <Setter Property="Background" Value="{DynamicResource SurfaceAltBrush}" />
+        <Setter Property="BorderThickness" Value="0" />
+    </Style>
+    <Style TargetType="Expander">
+        <Setter Property="c:Motion.Expand" Value="True" />
+        <Setter Property="Foreground" Value="{DynamicResource TextPrimaryBrush}" />
+        <Setter Property="FontSize" Value="14" />
+        <Setter Property="Margin" Value="0,12" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Expander">
+                    <StackPanel>
+                        <ToggleButton x:Name="ExpansionToggle" Content="{TemplateBinding Header}" ContentTemplate="{TemplateBinding HeaderTemplate}" IsChecked="{Binding IsExpanded, RelativeSource={RelativeSource TemplatedParent}, Mode=TwoWay}" Background="Transparent" BorderThickness="0" Foreground="{TemplateBinding Foreground}" Height="32" HorizontalContentAlignment="Left" FocusVisualStyle="{StaticResource KeyboardFocus}">
+                            <ToggleButton.Template>
+                                <ControlTemplate TargetType="ToggleButton">
+                                    <Border Background="{TemplateBinding Background}" CornerRadius="{DynamicResource AppearanceControlCornerRadius}">
+                                        <Grid>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="22" />
+                                                <ColumnDefinition Width="*" />
+                                            </Grid.ColumnDefinitions>
+                                            <Path x:Name="Chevron" Stroke="{DynamicResource TextSecondaryBrush}" VerticalAlignment="Center" HorizontalAlignment="Left" Data="M3,1 L7,5 L3,9" Width="10" Height="10" Stretch="None" RenderTransformOrigin="0.5,0.5" c:Motion.DisclosureOpen="{Binding IsChecked, RelativeSource={RelativeSource TemplatedParent}}" StrokeThickness="1.5" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" />
+                                            <ContentPresenter Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" RecognizesAccessKey="True" />
+                                        </Grid>
+                                    </Border>
+                                </ControlTemplate>
+                            </ToggleButton.Template>
+                        </ToggleButton>
+                        <Border x:Name="ExpansionHost" Height="0" Visibility="Collapsed" ClipToBounds="True">
+                            <ContentPresenter x:Name="ExpansionContent" Content="{TemplateBinding Content}" ContentTemplate="{TemplateBinding ContentTemplate}" />
+                        </Border>
+                    </StackPanel>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style TargetType="RadioButton">
+        <Setter Property="Foreground" Value="{DynamicResource TextPrimaryBrush}" />
+        <Setter Property="Margin" Value="0,6,16,6" />
+        <Setter Property="FocusVisualStyle" Value="{StaticResource KeyboardFocus}" />
+    </Style>
+    <Style x:Key="ActionLink" TargetType="Button" BasedOn="{StaticResource GhostButton}">
+        <Setter Property="Foreground" Value="{DynamicResource AccentBrush}" />
+    </Style>
+    <Style TargetType="c:SettingRow">
+        <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="c:SettingRow">
+                    <Border BorderBrush="{DynamicResource BorderSubtleBrush}" BorderThickness="0,0,0,1" Padding="0,12">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" MinWidth="92" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Text="{TemplateBinding Label}" Foreground="{DynamicResource TextPrimaryBrush}" FontSize="14" VerticalAlignment="Center" TextWrapping="Wrap" Margin="0,0,20,0" />
+                            <ContentPresenter Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Right" MaxWidth="340" />
+                        </Grid>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="SectionLabel" TargetType="TextBlock" BasedOn="{StaticResource CaptionText}">
+        <Setter Property="FontWeight" Value="Medium" />
+        <Setter Property="Margin" Value="0,28,0,4" />
+    </Style>
+</ResourceDictionary>

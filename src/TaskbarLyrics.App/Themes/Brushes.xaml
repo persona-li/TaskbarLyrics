@@ -1,0 +1,8 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!--
+      Brushes live inside Colors.Dark.xaml / Colors.Light.xaml so ThemeManager can
+      swap complete SolidColorBrush instances. This file is intentionally empty
+      (kept so older merge paths don't break if referenced).
+    -->
+</ResourceDictionary>

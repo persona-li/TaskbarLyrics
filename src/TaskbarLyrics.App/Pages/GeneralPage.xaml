@@ -1,0 +1,116 @@
+<UserControl x:Class="TaskbarLyrics.App.Pages.GeneralPage" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:c="clr-namespace:TaskbarLyrics.App.Controls" xmlns:p="clr-namespace:TaskbarLyrics.App.Presentation" xmlns:t="clr-namespace:TaskbarLyrics.App.Themes" FontFamily="{StaticResource AppFont}" FontSize="14" Foreground="{DynamicResource TextPrimaryBrush}">
+    <UserControl.Resources>
+        <p:ChoiceEqualsConverter x:Key="ThemeEquals" />
+        <Style x:Key="SettingsAction" TargetType="Button" BasedOn="{StaticResource GhostButton}">
+            <Setter Property="c:Motion.HoverBrush" Value="{DynamicResource PlaybackHoverBrush}" />
+            <Setter Property="Padding" Value="10,0" />
+            <Setter Property="Margin" Value="0" />
+            <Setter Property="MinWidth" Value="48" />
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="HorizontalContentAlignment" Value="Right" />
+        </Style>
+        <Style x:Key="SettingsClearAction" TargetType="Button" BasedOn="{StaticResource SettingsAction}">
+            <Setter Property="Foreground" Value="{DynamicResource DangerBrush}" />
+            <Setter Property="c:Motion.HoverBrush" Value="{DynamicResource DangerSoftBrush}" />
+            <Setter Property="c:Motion.PressedBrush" Value="{DynamicResource DangerSoftBrush}" />
+        </Style>
+        <Style TargetType="c:SettingRow">
+            <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+            <Setter Property="MinHeight" Value="44" />
+            <Setter Property="Template"><Setter.Value><ControlTemplate TargetType="c:SettingRow">
+                <Grid Background="Transparent" Margin="0,1">
+                    <Grid Margin="10,5,0,5">
+                        <Grid.ColumnDefinitions><ColumnDefinition Width="Auto" MaxWidth="220" /><ColumnDefinition Width="*" /><ColumnDefinition Width="Auto" /></Grid.ColumnDefinitions>
+                        <TextBlock Text="{TemplateBinding Label}" FontSize="15" VerticalAlignment="Center" TextWrapping="Wrap" />
+                        <Border x:Name="RowGuide" Grid.Column="1" Height="1" Margin="16,0" VerticalAlignment="Center" Background="{DynamicResource BorderSubtleBrush}" Opacity="0" IsHitTestVisible="False" />
+                        <ContentPresenter Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Right" MaxWidth="300" />
+                    </Grid>
+                </Grid>
+                <ControlTemplate.Triggers>
+                    <Trigger Property="IsMouseOver" Value="True"><Setter TargetName="RowGuide" Property="Opacity" Value="1" /></Trigger>
+                    <Trigger Property="IsKeyboardFocusWithin" Value="True"><Setter TargetName="RowGuide" Property="Opacity" Value="1" /></Trigger>
+                </ControlTemplate.Triggers>
+            </ControlTemplate></Setter.Value></Setter>
+        </Style>
+        <Style x:Key="ThemeSegment" TargetType="RadioButton">
+            <Setter Property="Height" Value="32" /><Setter Property="Width" Value="64" />
+            <Setter Property="Foreground" Value="{DynamicResource TextSecondaryBrush}" />
+            <Setter Property="FocusVisualStyle" Value="{StaticResource KeyboardFocus}" />
+            <Setter Property="Template"><Setter.Value><ControlTemplate TargetType="RadioButton">
+                <Grid>
+                    <Border x:Name="Root" Background="Transparent"><ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" /></Border>
+                    <Border x:Name="Outline" BorderBrush="{DynamicResource SelectionOutlineBrush}" BorderThickness="1" Visibility="Collapsed" IsHitTestVisible="False" />
+                </Grid>
+                <ControlTemplate.Triggers>
+                    <Trigger Property="IsMouseOver" Value="True"><Setter TargetName="Root" Property="Background" Value="{DynamicResource PlaybackHoverBrush}" /></Trigger>
+                    <Trigger Property="IsChecked" Value="True"><Setter TargetName="Root" Property="Background" Value="{DynamicResource PlaybackPressedBrush}" /><Setter TargetName="Outline" Property="Visibility" Value="Visible" /><Setter Property="Foreground" Value="{DynamicResource TextPrimaryBrush}" /></Trigger>
+                    <Trigger Property="IsPressed" Value="True"><Setter TargetName="Root" Property="Background" Value="{DynamicResource PlaybackPressedBrush}" /></Trigger>
+                </ControlTemplate.Triggers>
+            </ControlTemplate></Setter.Value></Setter>
+        </Style>
+        <Style x:Key="SettingsDisclosure" TargetType="Expander" BasedOn="{StaticResource {x:Type Expander}}">
+            <Setter Property="Margin" Value="0" />
+            <Setter Property="Template"><Setter.Value><ControlTemplate TargetType="Expander">
+                <StackPanel>
+                    <ToggleButton Content="{TemplateBinding Header}" Foreground="{TemplateBinding Foreground}" IsChecked="{Binding IsExpanded, RelativeSource={RelativeSource TemplatedParent}, Mode=TwoWay}" Height="38" FocusVisualStyle="{StaticResource KeyboardFocus}">
+                        <ToggleButton.Template><ControlTemplate TargetType="ToggleButton">
+                            <Border x:Name="Root" Background="Transparent" CornerRadius="{DynamicResource AppearanceControlCornerRadius}" Padding="10,0">
+                                <Grid><ContentPresenter VerticalAlignment="Center" Margin="0,0,24,0" TextElement.FontSize="15" TextElement.Foreground="{TemplateBinding Foreground}" /><Path x:Name="Arrow" Stroke="{DynamicResource TextSecondaryBrush}" HorizontalAlignment="Right" VerticalAlignment="Center" Data="M3,1 L7,5 L3,9" Width="10" Height="10" Stretch="None" RenderTransformOrigin="0.5,0.5" c:Motion.DisclosureOpen="{Binding IsChecked, RelativeSource={RelativeSource TemplatedParent}}" StrokeThickness="1.5" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" /></Grid>
+                            </Border>
+                        </ControlTemplate></ToggleButton.Template>
+                    </ToggleButton>
+                    <Border x:Name="ExpansionHost" Height="0" Visibility="Collapsed" ClipToBounds="True"><ContentPresenter x:Name="ExpansionContent" Content="{TemplateBinding Content}" /></Border>
+                </StackPanel>
+            </ControlTemplate></Setter.Value></Setter>
+        </Style>
+    </UserControl.Resources>
+    <Grid Margin="28,28,28,18">
+        <Grid.RowDefinitions><RowDefinition Height="Auto" /><RowDefinition Height="*" /></Grid.RowDefinitions>
+        <TextBlock Text="设置" FontSize="26" FontWeight="SemiBold" Margin="4,0,0,18" />
+        <Border x:Name="GeneralCard" Grid.Row="1" Background="{DynamicResource SurfaceBrush}" BorderBrush="{DynamicResource BorderSubtleBrush}" BorderThickness="1" CornerRadius="{DynamicResource AppearanceControlCornerRadius}" VerticalAlignment="Top">
+            <ScrollViewer x:Name="GeneralScroll" Style="{StaticResource AppScrollViewer}" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled" Padding="12,16,0,16">
+                <StackPanel x:Name="GeneralContent" Margin="2,0,0,0">
+                    <c:SettingRow Label="主题">
+                        <Border x:Name="ThemeOptionsSurface" Background="{DynamicResource SurfaceAltBrush}" CornerRadius="{DynamicResource AppearanceControlCornerRadius}" t:RoundedClip.Enabled="True" Margin="0,0,10,0">
+                            <StackPanel Orientation="Horizontal">
+                                <RadioButton x:Name="ThemeLight" Content="浅色" GroupName="ApplicationTheme" Style="{StaticResource ThemeSegment}" IsChecked="{Binding Theme, Converter={StaticResource ThemeEquals}, ConverterParameter=Light, Mode=TwoWay}" AutomationProperties.Name="浅色主题" />
+                                <RadioButton x:Name="ThemeDark" Content="深色" GroupName="ApplicationTheme" Style="{StaticResource ThemeSegment}" IsChecked="{Binding Theme, Converter={StaticResource ThemeEquals}, ConverterParameter=Dark, Mode=TwoWay}" AutomationProperties.Name="深色主题" />
+                                <RadioButton x:Name="ThemeSystem" Content="跟随系统" Width="96" GroupName="ApplicationTheme" Style="{StaticResource ThemeSegment}" IsChecked="{Binding Theme, Converter={StaticResource ThemeEquals}, ConverterParameter=FollowSystem, Mode=TwoWay}" AutomationProperties.Name="跟随系统主题" />
+                            </StackPanel>
+                        </Border>
+                    </c:SettingRow>
+                    <c:SettingRow Label="开机启动"><CheckBox x:Name="StartupToggle" IsChecked="{Binding StartupEnabled}" AutomationProperties.Name="开机启动" Margin="0,0,10,0" /></c:SettingRow>
+                    <c:SettingRow Label="界面动画"><CheckBox x:Name="AnimationsToggle" IsChecked="{Binding AnimationsEnabled}" AutomationProperties.Name="界面动画" Margin="0,0,10,0" /></c:SettingRow>
+                    <Border Height="1" Background="{DynamicResource BorderSubtleBrush}" Margin="10,14,10,12" />
+                    <StackPanel x:Name="DataSettings">
+                        <Grid Margin="10,0,0,4">
+                            <Grid.ColumnDefinitions><ColumnDefinition Width="*" /><ColumnDefinition Width="Auto" /></Grid.ColumnDefinitions>
+                            <TextBlock Text="数据管理" FontSize="15" VerticalAlignment="Center" />
+                            <Button x:Name="RefreshStatisticsButton" Grid.Column="1" Content="刷新" Command="{Binding RefreshDataCommand}" Style="{StaticResource SettingsAction}" />
+                        </Grid>
+                        <c:SettingRow Label="歌词缓存">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock x:Name="CacheSummary" VerticalAlignment="Center" Foreground="{DynamicResource TextSecondaryBrush}" Margin="0,0,12,0"><TextBlock.Text><MultiBinding StringFormat="{}{0} 首 · {1}"><Binding Path="CacheCount" /><Binding Path="CacheSize" /></MultiBinding></TextBlock.Text></TextBlock>
+                                <Button x:Name="CacheFolderButton" Content="打开目录" Command="{Binding OpenFolderCommand}" CommandParameter="cache" Style="{StaticResource SettingsAction}" />
+                            </StackPanel>
+                        </c:SettingRow>
+                        <c:SettingRow Label="手动匹配"><TextBlock x:Name="ManualCountText" Text="{Binding ManualCount, StringFormat={}{0} 首}" Foreground="{DynamicResource TextSecondaryBrush}" Margin="0,0,10,0" /></c:SettingRow>
+                        <c:SettingRow Label="单曲校准"><TextBlock x:Name="OffsetCountText" Text="{Binding OffsetCount, StringFormat={}{0} 首}" Foreground="{DynamicResource TextSecondaryBrush}" Margin="0,0,10,0" /></c:SettingRow>
+                    </StackPanel>
+                    <Border Height="1" Background="{DynamicResource BorderSubtleBrush}" Margin="10,12,10,8" />
+                    <Expander x:Name="MaintenanceSettings" Header="重置与清理" Style="{StaticResource SettingsDisclosure}">
+                        <StackPanel Margin="0,8,0,0">
+                            <c:SettingRow Label="配色"><Button Content="恢复默认" Command="{Binding ResetColorsCommand}" Style="{StaticResource SettingsAction}" AutomationProperties.Name="恢复默认配色" /></c:SettingRow>
+                            <c:SettingRow Label="外观"><Button Content="恢复默认" Command="{Binding ResetAppearanceCommand}" Style="{StaticResource SettingsAction}" AutomationProperties.Name="恢复默认外观" /></c:SettingRow>
+                            <Border Height="1" Background="{DynamicResource BorderSubtleBrush}" Margin="10,8,10,8" />
+                            <c:SettingRow Label="歌词缓存"><Button Content="清除" Command="{Binding OperationCommand}" CommandParameter="ClearLyrics" Style="{StaticResource SettingsClearAction}" AutomationProperties.Name="清除歌词缓存" /></c:SettingRow>
+                            <c:SettingRow Label="手动匹配（当前歌曲）"><Button x:Name="CurrentManualResetButton" Content="清除" Command="{Binding OperationCommand}" CommandParameter="ClearCurrentManual" IsEnabled="{Binding CanOperate}" Style="{StaticResource SettingsClearAction}" AutomationProperties.Name="清除当前歌曲的手动匹配" /></c:SettingRow>
+                            <c:SettingRow Label="手动匹配（全部歌曲）"><Button Content="清除" Command="{Binding OperationCommand}" CommandParameter="ClearAllManual" Style="{StaticResource SettingsClearAction}" AutomationProperties.Name="清除全部歌曲的手动匹配" /></c:SettingRow>
+                            <c:SettingRow Label="单曲校准（全部歌曲）"><Button Content="清除" Command="{Binding OperationCommand}" CommandParameter="ClearOffsets" Style="{StaticResource SettingsClearAction}" AutomationProperties.Name="清除全部歌曲的单曲校准" /></c:SettingRow>
+                        </StackPanel>
+                    </Expander>
+                </StackPanel>
+            </ScrollViewer>
+        </Border>
+    </Grid>
+</UserControl>

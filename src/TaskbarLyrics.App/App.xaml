@@ -1,0 +1,23 @@
+<Application x:Class="TaskbarLyrics.App.App" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" ShutdownMode="OnExplicitShutdown">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <!-- Theme tokens (colors + brushes). ThemeManager swaps Dark/Light. -->
+                <ResourceDictionary Source="Themes/Colors.Dark.xaml" />
+                <ResourceDictionary Source="Themes/Typography.xaml" />
+                <!-- Flatten control dictionaries so StaticResource keys resolve reliably. -->
+                <ResourceDictionary Source="Themes/Cards.xaml" />
+                <ResourceDictionary Source="Themes/Buttons.xaml" />
+                <ResourceDictionary Source="Themes/Inputs.xaml" />
+                <ResourceDictionary Source="Themes/FontPicker.xaml" />
+                <ResourceDictionary Source="Themes/Navigation.xaml" />
+                <ResourceDictionary Source="Assets/Icons/Logo.xaml" />
+                <ResourceDictionary Source="Assets/Icons/ActionIcons.xaml" />
+                <!-- Last so scrollbar styles win over any control defaults. -->
+                <ResourceDictionary Source="Themes/ScrollBars.xaml" />
+                <ResourceDictionary Source="Themes/Presentation.xaml" />
+                <ResourceDictionary Source="Themes/Playback.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

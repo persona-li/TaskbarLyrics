@@ -1,0 +1,115 @@
+<UserControl x:Class="TaskbarLyrics.App.Pages.SynchronizationPage" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:c="clr-namespace:TaskbarLyrics.App.Controls" FontFamily="{StaticResource AppFont}" FontSize="14" Typography.NumeralAlignment="Tabular" Typography.NumeralStyle="Lining" Foreground="{DynamicResource TextPrimaryBrush}">
+    <UserControl.Resources>
+        <DataTemplate x:Key="TimingAmount">
+            <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="24" /><ColumnDefinition Width="22" /></Grid.ColumnDefinitions>
+                <TextBlock x:Name="AmountDigits" Text="{Binding StringFormat={}{0:0}}" TextAlignment="Right" Typography.NumeralAlignment="Tabular" />
+                <TextBlock x:Name="AmountUnit" Grid.Column="1" Text="ms" Margin="4,0,0,0" />
+            </Grid>
+        </DataTemplate>
+        <DataTemplate x:Key="TimingActionContent">
+            <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="28" /><ColumnDefinition Width="26" /><ColumnDefinition Width="22" /></Grid.ColumnDefinitions>
+                <TextBlock x:Name="ActionPrefix" Text="{Binding Tag, RelativeSource={RelativeSource AncestorType=Button}}" />
+                <TextBlock x:Name="ActionDigits" Grid.Column="1" Text="{Binding DataContext.TimingStep, RelativeSource={RelativeSource AncestorType=Button}, StringFormat={}{0:0}}" TextAlignment="Right" Typography.NumeralAlignment="Tabular" />
+                <TextBlock x:Name="ActionUnit" Grid.Column="2" Text="ms" Margin="4,0,0,0" />
+            </Grid>
+        </DataTemplate>
+        <Style x:Key="TimingAction" TargetType="Button" BasedOn="{StaticResource GhostButton}">
+            <Setter Property="c:Motion.HoverBrush" Value="{DynamicResource PlaybackHoverBrush}" />
+            <Setter Property="Padding" Value="8,0" />
+        </Style>
+        <Style x:Key="TimingChoiceItem" TargetType="ComboBoxItem">
+            <Setter Property="Padding" Value="10,6" />
+            <Setter Property="Template"><Setter.Value><ControlTemplate TargetType="ComboBoxItem">
+                <Grid Margin="0,1">
+                    <Border x:Name="Root" Background="Transparent" CornerRadius="{DynamicResource AppearanceControlCornerRadius}" Padding="{TemplateBinding Padding}"><ContentPresenter /></Border>
+                    <Border x:Name="SelectionOutline" BorderBrush="{DynamicResource SelectionOutlineBrush}" BorderThickness="1" CornerRadius="{DynamicResource AppearanceControlCornerRadius}" Visibility="Collapsed" IsHitTestVisible="False" />
+                </Grid>
+                <ControlTemplate.Triggers>
+                    <Trigger Property="IsHighlighted" Value="True"><Setter TargetName="Root" Property="Background" Value="{DynamicResource PlaybackHoverBrush}" /><Setter TargetName="SelectionOutline" Property="Visibility" Value="Visible" /></Trigger>
+                    <Trigger Property="IsSelected" Value="True"><Setter TargetName="Root" Property="Background" Value="{DynamicResource PlaybackPressedBrush}" /><Setter TargetName="SelectionOutline" Property="Visibility" Value="Visible" /></Trigger>
+                </ControlTemplate.Triggers>
+            </ControlTemplate></Setter.Value></Setter>
+        </Style>
+        <Style x:Key="TimingChoice" TargetType="ComboBox">
+            <Setter Property="c:ComboBoxInteraction.OpenOnClick" Value="True" />
+            <Setter Property="Height" Value="32" /><Setter Property="Width" Value="112" /><Setter Property="FocusVisualStyle" Value="{StaticResource KeyboardFocus}" /><Setter Property="FontSize" Value="12" /><Setter Property="Foreground" Value="{DynamicResource TextSecondaryBrush}" />
+            <Setter Property="ItemContainerStyle" Value="{StaticResource TimingChoiceItem}" />
+            <Setter Property="Template"><Setter.Value><ControlTemplate TargetType="ComboBox">
+                <Grid>
+                    <ToggleButton x:Name="DropDownToggle" Focusable="False" IsChecked="{Binding IsDropDownOpen, RelativeSource={RelativeSource TemplatedParent}, Mode=TwoWay}">
+                        <ToggleButton.Template><ControlTemplate TargetType="ToggleButton"><Border x:Name="Root" Background="Transparent" CornerRadius="{DynamicResource AppearanceControlCornerRadius}" /></ControlTemplate></ToggleButton.Template>
+                    </ToggleButton>
+                    <Grid Margin="10,0" VerticalAlignment="Center" IsHitTestVisible="False">
+                        <Grid.ColumnDefinitions><ColumnDefinition Width="28" /><ColumnDefinition Width="46" /><ColumnDefinition Width="8" /><ColumnDefinition Width="10" /></Grid.ColumnDefinitions>
+                        <TextBlock x:Name="StepPrefix" Text="每次" VerticalAlignment="Center" />
+                        <ContentPresenter x:Name="StepValue" Grid.Column="1" Width="46" Content="{TemplateBinding SelectionBoxItem}" ContentTemplate="{TemplateBinding SelectionBoxItemTemplate}" HorizontalAlignment="Right" VerticalAlignment="Center" />
+                        <Path x:Name="DisclosureArrow" Grid.Column="3" Stroke="{DynamicResource TextSecondaryBrush}" VerticalAlignment="Center" Data="M3,1 L7,5 L3,9" Width="10" Height="10" Stretch="None" RenderTransformOrigin="0.5,0.5" c:Motion.DisclosureOpen="{Binding IsDropDownOpen, RelativeSource={RelativeSource TemplatedParent}}" StrokeThickness="1.5" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" />
+                    </Grid>
+                    <Popup x:Name="PART_Popup" c:Motion.PopupOpen="{TemplateBinding IsDropDownOpen}" Placement="Bottom" AllowsTransparency="True" Focusable="False" PopupAnimation="None">
+                        <Border c:KeyboardEditingOnly.Enabled="True" x:Name="TimingStepPopupSurface" Width="{Binding ActualWidth, RelativeSource={RelativeSource TemplatedParent}}" Margin="0,4,0,0" Padding="4" Background="{DynamicResource SurfaceBrush}" BorderBrush="{DynamicResource BorderSubtleBrush}" BorderThickness="1" CornerRadius="{DynamicResource AppearanceControlCornerRadius}"><ScrollViewer VerticalScrollBarVisibility="Disabled" HorizontalScrollBarVisibility="Disabled"><ItemsPresenter /></ScrollViewer></Border>
+                    </Popup>
+                </Grid>
+            </ControlTemplate></Setter.Value></Setter>
+        </Style>
+    </UserControl.Resources>
+    <Grid Margin="28,28,28,18">
+        <Grid.RowDefinitions><RowDefinition Height="Auto" /><RowDefinition Height="*" /></Grid.RowDefinitions>
+        <TextBlock Text="时间校准" FontSize="26" FontWeight="SemiBold" Margin="4,0,0,18" />
+        <Border x:Name="CalibrationCard" Grid.Row="1" Background="{DynamicResource SurfaceBrush}" BorderBrush="{DynamicResource BorderSubtleBrush}" BorderThickness="1" CornerRadius="{DynamicResource AppearanceControlCornerRadius}" VerticalAlignment="Top">
+            <ScrollViewer x:Name="CalibrationScroll" Style="{StaticResource AppScrollViewer}" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled" Padding="12,16,0,16">
+                <StackPanel x:Name="CalibrationContent" Margin="12,0,10,0">
+                <StackPanel x:Name="AuditionArea" Margin="0,0,0,12">
+                    <TextBlock Text="{Binding State.Title}" FontSize="18" FontWeight="SemiBold" TextTrimming="CharacterEllipsis" />
+                    <TextBlock Text="{Binding State.Artist}" Style="{StaticResource CaptionText}" Margin="0,3,0,12" TextTrimming="CharacterEllipsis" />
+                    <c:LyricsPreview x:Name="CalibrationPreview" CurrentSongOnly="True" Config="{Binding PreviewConfig}" State="{Binding State}" StateReader="{Binding PreviewReader}" Height="106" />
+                    <Grid Margin="0,10,0,0"><Grid.ColumnDefinitions><ColumnDefinition Width="Auto" /><ColumnDefinition Width="*" /><ColumnDefinition Width="Auto" /></Grid.ColumnDefinitions>
+                        <StackPanel Orientation="Horizontal" Margin="0,0,8,0">
+                            <Button x:Name="AuditionPreviousButton" Command="{Binding PreviousTrackCommand}" IsEnabled="{Binding CanSkipPrevious}" Style="{StaticResource MediaTransportButton}" AutomationProperties.Name="上一首" ContentTemplate="{StaticResource MediaPreviousIcon}" />
+                            <Button x:Name="AuditionPlayButton" Command="{Binding TogglePlaybackCommand}" IsEnabled="{Binding CanTogglePlayback}" Style="{StaticResource MediaTransportButton}" Content="{Binding PlaybackButtonIsPlaying}" ContentTemplate="{StaticResource MediaPlayPauseIcon}" AutomationProperties.Name="{Binding PlaybackButtonLabel}" />
+                            <Button x:Name="AuditionNextButton" Command="{Binding NextTrackCommand}" IsEnabled="{Binding CanSkipNext}" Style="{StaticResource MediaTransportButton}" AutomationProperties.Name="下一首" ContentTemplate="{StaticResource MediaNextIcon}" />
+                        </StackPanel>
+                        <c:PlaybackSeekSlider x:Name="AuditionProgress" Grid.Column="1" PositionSeconds="{Binding PlaybackPositionSeconds}" DurationSeconds="{Binding PlaybackDurationSeconds}" TrackKey="{Binding State.EditContext}" SeekCommand="{Binding SeekPlaybackCommand}" IsEnabled="{Binding CanSeekPlayback}" VerticalAlignment="Center" SmallChange="1" LargeChange="5" AutomationProperties.Name="试听播放进度" />
+                        <TextBlock Grid.Column="2" Text="{Binding State.TimeLabel}" Style="{StaticResource CaptionText}" VerticalAlignment="Center" Margin="12,0,0,0" />
+                    </Grid>
+                </StackPanel>
+                <Border Height="1" Background="{DynamicResource BorderSubtleBrush}" />
+                    <StackPanel x:Name="WorkflowContent" Margin="0,16,0,0">
+                        <Grid Margin="0,0,0,14">
+                            <Grid.ColumnDefinitions><ColumnDefinition Width="*" /><ColumnDefinition Width="Auto" /></Grid.ColumnDefinitions>
+                            <TextBlock Text="当前歌曲" FontSize="15" VerticalAlignment="Center" />
+                            <Button x:Name="TrackResetButton" Grid.Column="1" Content="重置本曲" Command="{Binding AdjustTimingCommand}" CommandParameter="TrackReset" IsEnabled="{Binding State.CanAdjustTrack}" Style="{StaticResource TimingAction}" Width="88" Margin="0,0,-8,0" AutomationProperties.HelpText="本曲偏移归零，保留全局校准" />
+                        </Grid>
+                        <Grid x:Name="TrackAdjustmentRow" HorizontalAlignment="Center" Width="428">
+                            <Grid.ColumnDefinitions><ColumnDefinition Width="308" /><ColumnDefinition Width="8" /><ColumnDefinition Width="112" /></Grid.ColumnDefinitions>
+                            <Grid x:Name="TrackAdjustmentGroup" IsEnabled="{Binding State.CanAdjustTrack}">
+                                <Grid.ColumnDefinitions><ColumnDefinition Width="100" /><ColumnDefinition Width="108" /><ColumnDefinition Width="100" /></Grid.ColumnDefinitions>
+                                <Button Content="{Binding TimingLaterLabel}" Tag="延后" ContentTemplate="{StaticResource TimingActionContent}" Command="{Binding AdjustTimingCommand}" CommandParameter="TrackLater" Style="{StaticResource TimingAction}" VerticalAlignment="Center" />
+                                <c:NumberEditor x:Name="TrackOffsetEditor" Grid.Column="1" Value="{Binding TrackOffset}" Compact="True" OffsetMode="True" Step="{Binding TimingStep}" Unit="ms" ContextKey="{Binding State.EditContext}" AccessibleName="本曲偏移" AutomationProperties.HelpText="本曲偏移：正数提前，负数延后，可输入 −5000 至 5000 ms" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                <Button Grid.Column="2" Content="{Binding TimingEarlierLabel}" Tag="提前" ContentTemplate="{StaticResource TimingActionContent}" Command="{Binding AdjustTimingCommand}" CommandParameter="TrackEarlier" Style="{StaticResource TimingAction}" VerticalAlignment="Center" />
+                            </Grid>
+                            <ComboBox x:Name="TimingStepChoice" Grid.Column="2" VerticalAlignment="Center" ItemsSource="{Binding TimingSteps}" SelectedItem="{Binding TimingStep, Mode=TwoWay}" Style="{StaticResource TimingChoice}" ItemTemplate="{StaticResource TimingAmount}" AutomationProperties.Name="每次调整量"></ComboBox>
+                        </Grid>
+                        <Border Height="1" Background="{DynamicResource BorderSubtleBrush}" Margin="0,18,0,16" />
+                        <StackPanel x:Name="GlobalCalibration">
+                            <Grid Margin="0,0,0,14">
+                                <Grid.ColumnDefinitions><ColumnDefinition Width="*" /><ColumnDefinition Width="Auto" /></Grid.ColumnDefinitions>
+                                <TextBlock Text="全局校准" FontSize="15" VerticalAlignment="Center" />
+                                <Button x:Name="GlobalResetButton" Grid.Column="1" Content="重置全局" Command="{Binding AdjustTimingCommand}" CommandParameter="GlobalReset" Style="{StaticResource TimingAction}" Width="88" Margin="0,0,-8,0" AutomationProperties.HelpText="全局偏移归零，保留各首歌曲的校准" />
+                            </Grid>
+                            <Grid x:Name="GlobalAdjustmentRow" HorizontalAlignment="Center" Width="428">
+                                <Grid.ColumnDefinitions><ColumnDefinition Width="308" /><ColumnDefinition Width="8" /><ColumnDefinition Width="112" /></Grid.ColumnDefinitions>
+                                <Grid x:Name="GlobalAdjustmentGroup">
+                                    <Grid.ColumnDefinitions><ColumnDefinition Width="100" /><ColumnDefinition Width="108" /><ColumnDefinition Width="100" /></Grid.ColumnDefinitions>
+                                    <Button Content="{Binding TimingLaterLabel}" Tag="延后" ContentTemplate="{StaticResource TimingActionContent}" Command="{Binding AdjustTimingCommand}" CommandParameter="GlobalLater" Style="{StaticResource TimingAction}" VerticalAlignment="Center" />
+                                    <c:NumberEditor x:Name="GlobalOffsetEditor" Grid.Column="1" Value="{Binding GlobalOffset}" Compact="True" OffsetMode="True" Step="{Binding TimingStep}" Unit="ms" AccessibleName="全局偏移" AutomationProperties.HelpText="全局偏移：正数提前，负数延后，可输入 −5000 至 5000 ms，影响所有歌曲" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                    <Button Grid.Column="2" Content="{Binding TimingEarlierLabel}" Tag="提前" ContentTemplate="{StaticResource TimingActionContent}" Command="{Binding AdjustTimingCommand}" CommandParameter="GlobalEarlier" Style="{StaticResource TimingAction}" VerticalAlignment="Center" />
+                                </Grid>
+                                <ComboBox x:Name="GlobalTimingStepChoice" Grid.Column="2" VerticalAlignment="Center" ItemsSource="{Binding TimingSteps}" SelectedItem="{Binding TimingStep, Mode=TwoWay}" Style="{StaticResource TimingChoice}" ItemTemplate="{StaticResource TimingAmount}" AutomationProperties.Name="全局校准每次调整量"></ComboBox>
+                            </Grid>
+                        </StackPanel>
+                    </StackPanel>
+                </StackPanel>
+            </ScrollViewer>
+        </Border>
+    </Grid>
+</UserControl>

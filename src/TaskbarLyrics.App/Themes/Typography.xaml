@@ -1,0 +1,44 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <CornerRadius x:Key="AppearanceControlCornerRadius">8</CornerRadius>
+    <!-- System UI fonts for management windows; taskbar lyrics retain the user font configuration. -->
+    <FontFamily x:Key="AppFont">Segoe UI, Microsoft YaHei UI</FontFamily>
+    <FontFamily x:Key="PlaybackLyricFont">Microsoft YaHei UI, Segoe UI</FontFamily>
+    <Style x:Key="TitleText" TargetType="TextBlock">
+        <Setter Property="FontFamily" Value="{StaticResource AppFont}" />
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="FontWeight" Value="Medium" />
+        <Setter Property="Foreground" Value="{DynamicResource TextPrimaryBrush}" />
+    </Style>
+    <Style x:Key="PageTitleText" TargetType="TextBlock">
+        <Setter Property="FontFamily" Value="{StaticResource AppFont}" />
+        <Setter Property="FontSize" Value="23" />
+        <Setter Property="FontWeight" Value="Medium" />
+        <Setter Property="Foreground" Value="{DynamicResource TextPrimaryBrush}" />
+        <Setter Property="Margin" Value="0,0,0,16" />
+    </Style>
+    <Style x:Key="SectionTitleText" TargetType="TextBlock">
+        <Setter Property="FontFamily" Value="{StaticResource AppFont}" />
+        <Setter Property="FontSize" Value="14" />
+        <Setter Property="FontWeight" Value="Medium" />
+        <Setter Property="Foreground" Value="{DynamicResource TextPrimaryBrush}" />
+        <Setter Property="Margin" Value="0,0,0,10" />
+    </Style>
+    <Style x:Key="BodyText" TargetType="TextBlock">
+        <Setter Property="FontFamily" Value="{StaticResource AppFont}" />
+        <Setter Property="FontSize" Value="14" />
+        <Setter Property="Foreground" Value="{DynamicResource TextPrimaryBrush}" />
+        <Setter Property="TextWrapping" Value="Wrap" />
+    </Style>
+    <Style x:Key="CaptionText" TargetType="TextBlock">
+        <Setter Property="FontFamily" Value="{StaticResource AppFont}" />
+        <Setter Property="FontSize" Value="12" />
+        <Setter Property="Foreground" Value="{DynamicResource TextSecondaryBrush}" />
+        <Setter Property="TextWrapping" Value="Wrap" />
+    </Style>
+    <Style x:Key="MutedText" TargetType="TextBlock">
+        <Setter Property="FontFamily" Value="{StaticResource AppFont}" />
+        <Setter Property="FontSize" Value="12" />
+        <Setter Property="Foreground" Value="{DynamicResource TextMutedBrush}" />
+        <Setter Property="TextWrapping" Value="Wrap" />
+    </Style>
+</ResourceDictionary>
