@@ -1,0 +1,8 @@
+QQ Music QRC decryption:
+  native/src/lyrics_des.hpp is a C++ translation of this project's DESHelper.cs,
+  which derives from WXRIW/Lyricify-Lyrics-Helper and Widdit/now-playing-service.
+  Original implementation licensed under Apache License 2.0.
+  Source: https://github.com/WXRIW/Lyricify-Lyrics-Helper
+          Lyricify.Lyrics.Helper/Decrypter/Qrc/DESHelper.cs
+  Changes: byte arrays replaced by fixed C++ arrays; integer operations retained.
+  The bounded zlib/DEFLATE reader is original code implementing RFC 1950/1951.

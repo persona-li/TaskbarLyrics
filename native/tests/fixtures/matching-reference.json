@@ -1,0 +1,5392 @@
+[
+  {
+    "title": "\uC601\uC6C5 (\u82F1\u96C4; Kick It)",
+    "artist": "NCT 127 (\uC5D4\uC2DC\uD2F0 127)",
+    "duration": 0,
+    "album": "NCT #127 Neo Zone \u2013 The 2nd Album",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "003Hg7vv2cHyIx",
+        "title": "\u82F1\u96C4;Kick It",
+        "artist": "NCT 127 (\uC5D4\uC2DC\uD2F0 127)",
+        "album": "LOVEHOLIC (loveholic)",
+        "duration": 233,
+        "score": 85.32,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "000qjaGA3C171u",
+        "title": "\uC11C\uACE1 (\u5E8F\u66F2; Prelude) \u002B\uC601\uC6C5 (\u82F1\u96C4; Kick It) (\u7F51\u53CB\u6539\u7F16)",
+        "artist": "NCT 127",
+        "album": "",
+        "duration": 300,
+        "score": 55.85,
+        "high": false
+      }
+    ],
+    "best": "003Hg7vv2cHyIx"
+  },
+  {
+    "title": "Love Shot",
+    "artist": "EXO (\uC5D1\uC18C)",
+    "duration": 200,
+    "album": "LOVE SHOT \u2013 The 5th Album Repackage",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "0023HEeH3xzJC3",
+        "title": "Love Shot",
+        "artist": "EXO (\uC5D1\uC18C)",
+        "album": "LOVE SHOT \u2013 The 5th Album Repackage",
+        "duration": 200,
+        "score": 100,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "000020wX1JLzzV",
+        "title": "\u5BA3\u544A (Love Shot)",
+        "artist": "EXO",
+        "album": "LOVE SHOT \u2013 The 5th Album Repackage",
+        "duration": 200,
+        "score": 98.2,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "japanese-version-mid",
+        "title": "Love Shot (Japanese Ver.)",
+        "artist": "EXO (\uC5D1\uC18C)",
+        "album": "LOVE SHOT \u2013 The 5th Album Repackage",
+        "duration": 200,
+        "score": 64,
+        "high": false
+      }
+    ],
+    "best": "0023HEeH3xzJC3"
+  },
+  {
+    "title": "\uB108\uC5D0\uAC8C \uB2FF\uAE30\uB97C (I Wish) (\u9760\u8FD1\u4F60\u7684\u5FC3)",
+    "artist": "WJSN (\u5B87\u5B99\u5C11\u5973) (\uC6B0\uC8FC\uC18C\uB140)",
+    "duration": 239,
+    "album": "From. \uC6B0\uC8FC\uC18C\uB140",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "short-wrong-mid",
+        "title": "\uB108\uC5D0\uAC8C \uB2FF\uAE30\uB97C (I Wish)",
+        "artist": "\u5B87\u5B99\u5C11\u5973",
+        "album": "",
+        "duration": 37,
+        "score": 70,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "correct-mid",
+        "title": "\uB108\uC5D0\uAC8C \uB2FF\uAE30\uB97C (\u9760\u8FD1\u4F60\u7684\u5FC3) (I Wish)",
+        "artist": "WJSN (\u5B87\u5B99\u5C11\u5973) (\uC6B0\uC8FC\uC18C\uB140)",
+        "album": "From. \uC6B0\uC8FC\uC18C\uB140",
+        "duration": 218,
+        "score": 98.5,
+        "high": true
+      }
+    ],
+    "best": "correct-mid"
+  },
+  {
+    "title": "CHEER UP (Korean Ver.)",
+    "artist": "TWICE (\uD2B8\uC640\uC774\uC2A4)",
+    "duration": 225,
+    "album": "PAGE TWO",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "004H8CP93KDaHi",
+        "title": "CHEER UP (Korean Ver.)",
+        "artist": "TWICE (\uD2B8\uC640\uC774\uC2A4)",
+        "album": "PAGE TWO (page two)",
+        "duration": 208,
+        "score": 86.8,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "004CFtDx258bS9",
+        "title": "SIGNAL (Korean Ver.)",
+        "artist": "TWICE (\uD2B8\uC640\uC774\uC2A4)",
+        "album": "SIGNAL (signal)",
+        "duration": 196,
+        "score": 71.82,
+        "high": false
+      }
+    ],
+    "best": "004H8CP93KDaHi"
+  },
+  {
+    "title": "Ridin\u0027",
+    "artist": "NCT DREAM (\uC5D4\uC2DC\uD2F0 \uB4DC\uB9BC)",
+    "duration": 274,
+    "album": "Reload",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "004VXk3R1RDw4F",
+        "title": "Ridin\u0027",
+        "artist": "NCT DREAM (\uC5D4\uC2DC\uD2F0 \uB4DC\uB9BC)",
+        "album": "Reload",
+        "duration": 201,
+        "score": 100,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "004Ltju10IFZIF",
+        "title": "Ridin\u0027 (Live)",
+        "artist": "NCT DREAM (\uC5D4\uC2DC\uD2F0 \uB4DC\uB9BC)",
+        "album": "SMTOWN LIVE Culture Humanity",
+        "duration": 208,
+        "score": 54.11,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "001JFcpK34g5qJ",
+        "title": "Ridin\u0027",
+        "artist": "NLSN",
+        "album": "Ridin\u0027",
+        "duration": 124,
+        "score": 54.44,
+        "high": false
+      }
+    ],
+    "best": "004VXk3R1RDw4F"
+  },
+  {
+    "title": "Nice Body (With \uB85C\uAF2C)",
+    "artist": "\u5B5D\u654F (\uD6A8\uBBFC)/Loco (\uB85C\uAF2C)",
+    "duration": 243,
+    "album": "Make Up",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "003H7Wiw23J0iv",
+        "title": "Nice Body (With \uB85C\uAF2C)",
+        "artist": "\u5B5D\u654F / Loco",
+        "album": "Make Up (make up)",
+        "duration": 208,
+        "score": 99,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "0012N0fg4b8FwG",
+        "title": "Nice Body (\u4F34\u594F)",
+        "artist": "\uD6A8\uBBFC;\uB85C\uAF2C",
+        "album": "",
+        "duration": 208,
+        "score": 39.34,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "001cEBKe1wJQlY",
+        "title": "Nice Body",
+        "artist": "A\u9171",
+        "album": "",
+        "duration": 214,
+        "score": 46.75,
+        "high": false
+      }
+    ],
+    "best": "003H7Wiw23J0iv"
+  },
+  {
+    "title": "Levitating",
+    "artist": "Dua Lipa",
+    "duration": 210,
+    "album": "Future Nostalgia (Explicit)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "partial",
+        "title": "Levitating",
+        "artist": "Dua Lipa / DaBaby",
+        "album": "Future Nostalgia (Explicit)",
+        "duration": 203,
+        "score": 88,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "exact",
+        "title": "Levitating",
+        "artist": "DUA LIPA",
+        "album": "Future Nostalgia (Explicit)",
+        "duration": 203,
+        "score": 94,
+        "high": true
+      }
+    ],
+    "best": "exact"
+  },
+  {
+    "title": "Levitating",
+    "artist": "Dua Lipa",
+    "duration": 210,
+    "album": "Future Nostalgia (Explicit)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "partial",
+        "title": "Levitating",
+        "artist": "Dua Lipa / DaBaby",
+        "album": "Future Nostalgia (Explicit)",
+        "duration": 203,
+        "score": 88,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "exact",
+        "title": "Levitating",
+        "artist": "DUA LIPA",
+        "album": "Future Nostalgia (Explicit)",
+        "duration": 203,
+        "score": 94,
+        "high": true
+      }
+    ],
+    "best": "exact"
+  },
+  {
+    "title": "Levitating",
+    "artist": "Dua Lipa / DaBaby",
+    "duration": 210,
+    "album": "Future Nostalgia (Explicit)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "partial",
+        "title": "Levitating",
+        "artist": "Dua Lipa",
+        "album": "Future Nostalgia (Explicit)",
+        "duration": 203,
+        "score": 88,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "exact",
+        "title": "Levitating",
+        "artist": "dababy; DUA LIPA",
+        "album": "Future Nostalgia (Explicit)",
+        "duration": 203,
+        "score": 94,
+        "high": true
+      }
+    ],
+    "best": "exact"
+  },
+  {
+    "title": "Levitating",
+    "artist": "Dua Lipa / DaBaby",
+    "duration": 210,
+    "album": "Future Nostalgia (Explicit)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "partial",
+        "title": "Levitating",
+        "artist": "Dua Lipa",
+        "album": "Future Nostalgia (Explicit)",
+        "duration": 203,
+        "score": 88,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "exact",
+        "title": "Levitating",
+        "artist": "dababy; DUA LIPA",
+        "album": "Future Nostalgia (Explicit)",
+        "duration": 203,
+        "score": 94,
+        "high": true
+      }
+    ],
+    "best": "exact"
+  },
+  {
+    "title": "Levitating",
+    "artist": "Dua Lipa",
+    "duration": 210,
+    "album": "Future Nostalgia (Explicit)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "exact",
+        "title": "Levitating",
+        "artist": "DUA LIPA",
+        "album": "Future Nostalgia (Explicit)",
+        "duration": 203,
+        "score": 94,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "partial",
+        "title": "Levitating",
+        "artist": "Dua Lipa / DaBaby",
+        "album": "Future Nostalgia (Explicit)",
+        "duration": 203,
+        "score": 88,
+        "high": false
+      }
+    ],
+    "best": "exact"
+  },
+  {
+    "title": "Levitating",
+    "artist": "Dua Lipa",
+    "duration": 210,
+    "album": "Future Nostalgia (Explicit)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "exact",
+        "title": "Levitating",
+        "artist": "DUA LIPA",
+        "album": "Future Nostalgia (Explicit)",
+        "duration": 203,
+        "score": 94,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "partial",
+        "title": "Levitating",
+        "artist": "Dua Lipa / DaBaby",
+        "album": "Future Nostalgia (Explicit)",
+        "duration": 203,
+        "score": 88,
+        "high": false
+      }
+    ],
+    "best": "exact"
+  },
+  {
+    "title": "Levitating",
+    "artist": "Dua Lipa / DaBaby",
+    "duration": 210,
+    "album": "Future Nostalgia (Explicit)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "exact",
+        "title": "Levitating",
+        "artist": "dababy; DUA LIPA",
+        "album": "Future Nostalgia (Explicit)",
+        "duration": 203,
+        "score": 94,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "partial",
+        "title": "Levitating",
+        "artist": "Dua Lipa",
+        "album": "Future Nostalgia (Explicit)",
+        "duration": 203,
+        "score": 88,
+        "high": false
+      }
+    ],
+    "best": "exact"
+  },
+  {
+    "title": "Levitating",
+    "artist": "Dua Lipa / DaBaby",
+    "duration": 210,
+    "album": "Future Nostalgia (Explicit)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "exact",
+        "title": "Levitating",
+        "artist": "dababy; DUA LIPA",
+        "album": "Future Nostalgia (Explicit)",
+        "duration": 203,
+        "score": 94,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "partial",
+        "title": "Levitating",
+        "artist": "Dua Lipa",
+        "album": "Future Nostalgia (Explicit)",
+        "duration": 203,
+        "score": 88,
+        "high": false
+      }
+    ],
+    "best": "exact"
+  },
+  {
+    "title": "Levitating",
+    "artist": "Dua Lipa",
+    "duration": 210,
+    "album": "",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "partial",
+        "title": "Levitating",
+        "artist": "Dua Lipa / DaBaby",
+        "album": "Future Nostalgia (Explicit)",
+        "duration": 203,
+        "score": 94,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "exact",
+        "title": "Levitating",
+        "artist": "Dua Lipa",
+        "album": "Future Nostalgia (Explicit)",
+        "duration": 203,
+        "score": 94,
+        "high": true
+      }
+    ],
+    "best": "partial"
+  },
+  {
+    "title": "Levitating",
+    "artist": "Dua Lipa",
+    "duration": 0,
+    "album": "Future Nostalgia (Explicit)",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "partial",
+        "title": "Levitating",
+        "artist": "Dua Lipa / DaBaby",
+        "album": "Future Nostalgia (Explicit)",
+        "duration": 203,
+        "score": 100,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "exact",
+        "title": "Levitating",
+        "artist": "Dua Lipa",
+        "album": "Future Nostalgia (Explicit)",
+        "duration": 203,
+        "score": 100,
+        "high": true
+      }
+    ],
+    "best": "partial"
+  },
+  {
+    "title": "Levitating",
+    "artist": "",
+    "duration": 210,
+    "album": "Future Nostalgia (Explicit)",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "partial",
+        "title": "Levitating",
+        "artist": "Dua Lipa / DaBaby",
+        "album": "Future Nostalgia (Explicit)",
+        "duration": 203,
+        "score": 94,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "exact",
+        "title": "Levitating",
+        "artist": "Dua Lipa",
+        "album": "Future Nostalgia (Explicit)",
+        "duration": 203,
+        "score": 94,
+        "high": true
+      }
+    ],
+    "best": "partial"
+  },
+  {
+    "title": "Levitating",
+    "artist": "Dua Lipa",
+    "duration": 210,
+    "album": "Future Nostalgia (Explicit)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "partial",
+        "title": "Levitating",
+        "artist": "Dua Lipa / DaBaby",
+        "album": "Future Nostalgia (Explicit)",
+        "duration": 203,
+        "score": 94,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "exact",
+        "title": "Levitating",
+        "artist": "Dua Lipa",
+        "album": "Another album",
+        "duration": 203,
+        "score": 85.85,
+        "high": false
+      }
+    ],
+    "best": "partial"
+  },
+  {
+    "title": "Levitating",
+    "artist": "Dua Lipa",
+    "duration": 210,
+    "album": "Future Nostalgia (Explicit)",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "partial",
+        "title": "Levitating",
+        "artist": "Dua Lipa / DaBaby",
+        "album": "Future Nostalgia (Explicit)",
+        "duration": 203,
+        "score": 94,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "exact",
+        "title": "Levitating",
+        "artist": "Dua Lipa",
+        "album": "Future Nostalgia (Explicit)",
+        "duration": 220,
+        "score": 94,
+        "high": true
+      }
+    ],
+    "best": "partial"
+  },
+  {
+    "title": "Levitating",
+    "artist": "Dua Lipa",
+    "duration": 210,
+    "album": "Future Nostalgia (Explicit)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "partial",
+        "title": "Levitating",
+        "artist": "Dua Lipa / DaBaby",
+        "album": "Future Nostalgia (Explicit)",
+        "duration": 0,
+        "score": 100,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "exact",
+        "title": "Levitating",
+        "artist": "Dua Lipa",
+        "album": "Future Nostalgia (Explicit)",
+        "duration": 203,
+        "score": 94,
+        "high": true
+      }
+    ],
+    "best": "partial"
+  },
+  {
+    "title": "Levitating",
+    "artist": "Dua Lipa",
+    "duration": 210,
+    "album": "Future Nostalgia (Explicit)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "partial",
+        "title": "Levitating",
+        "artist": "Dua Lipa / DaBaby",
+        "album": "Future Nostalgia (Explicit)",
+        "duration": 203,
+        "score": 94,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "exact",
+        "title": "Levitating (Live)",
+        "artist": "Dua Lipa",
+        "album": "Future Nostalgia (Explicit)",
+        "duration": 203,
+        "score": 63,
+        "high": false
+      }
+    ],
+    "best": "partial"
+  },
+  {
+    "title": "Levitating",
+    "artist": "Dua Lipa",
+    "duration": 210,
+    "album": "Future Nostalgia (Explicit)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "partial",
+        "title": "Levitating",
+        "artist": "Dua Lipa / DaBaby",
+        "album": "Future Nostalgia (Explicit)",
+        "duration": 203,
+        "score": 94,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "exact",
+        "title": "Another song",
+        "artist": "Dua Lipa",
+        "album": "Future Nostalgia (Explicit)",
+        "duration": 203,
+        "score": 50,
+        "high": false
+      }
+    ],
+    "best": "partial"
+  },
+  {
+    "title": "Levitating",
+    "artist": "Dua Lipa",
+    "duration": 300,
+    "album": "Future Nostalgia (Explicit)",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "partial",
+        "title": "Levitating",
+        "artist": "Dua Lipa / DaBaby",
+        "album": "Future Nostalgia (Explicit)",
+        "duration": 203,
+        "score": 100,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "exact",
+        "title": "Levitating",
+        "artist": "Dua Lipa",
+        "album": "Future Nostalgia (Explicit)",
+        "duration": 203,
+        "score": 100,
+        "high": true
+      }
+    ],
+    "best": "partial"
+  },
+  {
+    "title": "Levitating",
+    "artist": "Dua Lipa",
+    "duration": 210,
+    "album": "Future Nostalgia (Explicit)",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "partial",
+        "title": "Levitating",
+        "artist": "Dua Lipa / DaBaby",
+        "album": "Future Nostalgia (Explicit)",
+        "duration": 203,
+        "score": 94,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "exact",
+        "title": "Levitating",
+        "artist": "Dua Lipa / Guest",
+        "album": "Future Nostalgia (Explicit)",
+        "duration": 203,
+        "score": 94,
+        "high": true
+      }
+    ],
+    "best": "partial"
+  },
+  {
+    "title": "Levitating",
+    "artist": "Dua Lipa",
+    "duration": 210,
+    "album": "Future Nostalgia (Explicit)",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "partial",
+        "title": "Levitating",
+        "artist": "Dua Lipa / DaBaby",
+        "album": "Future Nostalgia (Explicit)",
+        "duration": 203,
+        "score": 94,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "exact",
+        "title": "Levitating",
+        "artist": "Dua Lipa",
+        "album": "Future Nostalgia (Explicit)",
+        "duration": 206,
+        "score": 98,
+        "high": false
+      }
+    ],
+    "best": "exact"
+  },
+  {
+    "title": "Levitating",
+    "artist": "Dua Lipa",
+    "duration": 212,
+    "album": "Future Nostalgia (Explicit)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "partial",
+        "title": "Levitating",
+        "artist": "Dua Lipa / DaBaby",
+        "album": "Future Nostalgia (Explicit)",
+        "duration": 203,
+        "score": 88,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "exact",
+        "title": "Levitating",
+        "artist": "Dua Lipa",
+        "album": "Future Nostalgia (Explicit)",
+        "duration": 205,
+        "score": 94,
+        "high": true
+      }
+    ],
+    "best": "exact"
+  },
+  {
+    "title": "Levitating",
+    "artist": "Dua Lipa",
+    "duration": 210,
+    "album": "Future Nostalgia (Explicit)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "partial",
+        "title": "Levitating",
+        "artist": "Dua Lipa / DaBaby",
+        "album": "Future Nostalgia (Explicit)",
+        "duration": 203,
+        "score": 94,
+        "high": true
+      }
+    ],
+    "best": "partial"
+  },
+  {
+    "title": "\u6CE2\u5149 (Gold Dust)",
+    "artist": "NCT 127 (\uC5D4\uC2DC\uD2F0 127)",
+    "duration": 289,
+    "album": "\u75BE\u9A70 (2 Baddies) - The 4th Album",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "000B7cM22vEhtq",
+        "title": "\u6CE2\u5149 (Gold Dust)",
+        "artist": "NCT 127 (\uC5D4\uC2DC\uD2F0 127)",
+        "album": "\u75BE\u9A70 (2 Baddies) - The 4th Album (\u75BE\u9A70 (2 baddies) - the 4th album)",
+        "duration": 249,
+        "score": 99.7,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "000VTyg74YxvYW",
+        "title": "\u6CE2\u5149 (Gold Dust)",
+        "artist": "NCT 127",
+        "album": "",
+        "duration": 60,
+        "score": 70,
+        "high": false
+      }
+    ],
+    "best": "000B7cM22vEhtq"
+  },
+  {
+    "title": "\u6CE2\u5149 (Gold Dust)",
+    "artist": "NCT 127 (\uC5D4\uC2DC\uD2F0 127)",
+    "duration": 289,
+    "album": "\u75BE\u9A70 (2 Baddies) - The 4th Album",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "live",
+        "title": "\u6CE2\u5149 (Gold Dust) (Live)",
+        "artist": "NCT 127 (\uC5D4\uC2DC\uD2F0 127)",
+        "album": "\u75BE\u9A70 (2 Baddies) - The 4th Album (\u75BE\u9A70 (2 baddies) - the 4th album)",
+        "duration": 249,
+        "score": 67.2,
+        "high": false
+      }
+    ],
+    "best": "live"
+  },
+  {
+    "title": "Some",
+    "artist": "\u8138\u7EA2\u7684\u601D\u6625\u671F (\uBCFC\uBE68\uAC04\uC0AC\uCD98\uAE30)",
+    "duration": 184,
+    "album": "\u79C1\u306E\u601D\u6625\u671F\u3078/Some",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "000E9f1f303Wq8",
+        "title": "\uC378 \uD0C8\uAEBC\uC57C (Some)",
+        "artist": "\u8138\u7EA2\u7684\u601D\u6625\u671F (\uBCFC\uBE68\uAC04\uC0AC\uCD98\uAE30)",
+        "album": "Red Diary Page.1 (red diary page.1)",
+        "duration": 181,
+        "score": 87.09,
+        "high": false
+      }
+    ],
+    "best": "000E9f1f303Wq8"
+  },
+  {
+    "title": "Some",
+    "artist": "\u8138\u7EA2\u7684\u601D\u6625\u671F (\uBCFC\uBE68\uAC04\uC0AC\uCD98\uAE30)",
+    "duration": 184,
+    "album": "\u79C1\u306E\u601D\u6625\u671F\u3078/Some",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "000E9f1f303Wq8",
+        "title": "\uC378 \uD0C8\uAEBC\uC57C (Some)",
+        "artist": "\u8138\u7EA2\u7684\u601D\u6625\u671F (\uBCFC\uBE68\uAC04\uC0AC\uCD98\uAE30)",
+        "album": "Red Diary Page.1 (red diary page.1)",
+        "duration": 181,
+        "score": 87.09,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "002YEbUM4BB9mj",
+        "title": "Some",
+        "artist": "\u8138\u7EA2\u7684\u601D\u6625\u671F (\uBCFC\uBE68\uAC04\uC0AC\uCD98\uAE30)",
+        "album": "\u79C1\u306E\u601D\u6625\u671F\u3078/Some",
+        "duration": 184,
+        "score": 100,
+        "high": true
+      }
+    ],
+    "best": "002YEbUM4BB9mj"
+  },
+  {
+    "title": "Some",
+    "artist": "\u8138\u7EA2\u7684\u601D\u6625\u671F (\uBCFC\uBE68\uAC04\uC0AC\uCD98\uAE30)",
+    "duration": 184,
+    "album": "Album (Japanese Ver.)",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "",
+        "title": "Some",
+        "artist": "\u8138\u7EA2\u7684\u601D\u6625\u671F (\uBCFC\uBE68\uAC04\uC0AC\uCD98\uAE30)",
+        "album": "Album",
+        "duration": 184,
+        "score": 68.5,
+        "high": false
+      }
+    ],
+    "best": ""
+  },
+  {
+    "title": "Some",
+    "artist": "\u8138\u7EA2\u7684\u601D\u6625\u671F (\uBCFC\uBE68\uAC04\uC0AC\uCD98\uAE30)",
+    "duration": 184,
+    "album": "Album (Chinese Ver.)",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "",
+        "title": "Some",
+        "artist": "\u8138\u7EA2\u7684\u601D\u6625\u671F (\uBCFC\uBE68\uAC04\uC0AC\uCD98\uAE30)",
+        "album": "Album",
+        "duration": 184,
+        "score": 68.5,
+        "high": false
+      }
+    ],
+    "best": ""
+  },
+  {
+    "title": "Some",
+    "artist": "\u8138\u7EA2\u7684\u601D\u6625\u671F (\uBCFC\uBE68\uAC04\uC0AC\uCD98\uAE30)",
+    "duration": 184,
+    "album": "Album (English Ver.)",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "",
+        "title": "Some",
+        "artist": "\u8138\u7EA2\u7684\u601D\u6625\u671F (\uBCFC\uBE68\uAC04\uC0AC\uCD98\uAE30)",
+        "album": "Album",
+        "duration": 184,
+        "score": 68.5,
+        "high": false
+      }
+    ],
+    "best": ""
+  },
+  {
+    "title": "Some",
+    "artist": "\u8138\u7EA2\u7684\u601D\u6625\u671F (\uBCFC\uBE68\uAC04\uC0AC\uCD98\uAE30)",
+    "duration": 184,
+    "album": "Album (Korean Ver.)",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "",
+        "title": "Some",
+        "artist": "\u8138\u7EA2\u7684\u601D\u6625\u671F (\uBCFC\uBE68\uAC04\uC0AC\uCD98\uAE30)",
+        "album": "Album",
+        "duration": 184,
+        "score": 68.5,
+        "high": false
+      }
+    ],
+    "best": ""
+  },
+  {
+    "title": "\u7121\u9650\u7684\u6211 (\u65E0\u9650\u7684\u6211) (\uBB34\uD55C\uC801\uC544; LIMITLESS)",
+    "artist": "NCT 127",
+    "duration": 247,
+    "album": "NCT #127 Limitless - The 2nd Mini Album",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "004Ki2rr4ISl1g",
+        "title": "\u7121\u9650\u7684\u6211 (\u65E0\u9650\u7684\u6211) (\uBB34\uD55C\uC801\uC544; LIMITLESS)",
+        "artist": "NCT 127 (\uC5D4\uC2DC\uD2F0 127)",
+        "album": "NCT #127 Limitless - The 2nd Mini Album",
+        "duration": 247,
+        "score": 99.4,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "002xhscJ0Euos8",
+        "title": "\u65E0\u9650\u7684\u6211",
+        "artist": "NCT 127 (\uC5D4\uC2DC\uD2F0 127)",
+        "album": "",
+        "duration": 218,
+        "score": 91.4,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "chain",
+        "title": "Limitless",
+        "artist": "NCT 127 (\uC5D4\uC2DC\uD2F0 127)",
+        "album": "Chain",
+        "duration": 247,
+        "score": 84.43,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "live",
+        "title": "\u7121\u9650\u7684\u6211 (\u65E0\u9650\u7684\u6211) (\uBB34\uD55C\uC801\uC544; LIMITLESS) (Live)",
+        "artist": "NCT 127 (\uC5D4\uC2DC\uD2F0 127)",
+        "album": "NEO CITY : SEOUL \u2013 The Origin \u2013 The 1st Live Album",
+        "duration": 278,
+        "score": 58.4,
+        "high": false
+      }
+    ],
+    "best": "004Ki2rr4ISl1g"
+  },
+  {
+    "title": "\u7121\u9650\u7684\u6211 (\u65E0\u9650\u7684\u6211) (\uBB34\uD55C\uC801\uC544; LIMITLESS)",
+    "artist": "NCT 127",
+    "duration": 247,
+    "album": "NCT #127 Limitless - The 2nd Mini Album",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "004Ki2rr4ISl1g",
+        "title": "\u7121\u9650\u7684\u6211 (\u65E0\u9650\u7684\u6211) (\uBB34\uD55C\uC801\uC544; LIMITLESS)",
+        "artist": "NCT 127 (\uC5D4\uC2DC\uD2F0 127)",
+        "album": "NCT #127 Limitless - The 2nd Mini Album",
+        "duration": 247,
+        "score": 99.4,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "002xhscJ0Euos8",
+        "title": "\u65E0\u9650\u7684\u6211",
+        "artist": "NCT 127 (\uC5D4\uC2DC\uD2F0 127)",
+        "album": "",
+        "duration": 218,
+        "score": 91.4,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "chain",
+        "title": "Limitless",
+        "artist": "NCT 127 (\uC5D4\uC2DC\uD2F0 127)",
+        "album": "Chain",
+        "duration": 247,
+        "score": 84.43,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "live",
+        "title": "\u7121\u9650\u7684\u6211 (\u65E0\u9650\u7684\u6211) (\uBB34\uD55C\uC801\uC544; LIMITLESS) (Live)",
+        "artist": "NCT 127 (\uC5D4\uC2DC\uD2F0 127)",
+        "album": "NEO CITY : SEOUL \u2013 The Origin \u2013 The 1st Live Album",
+        "duration": 278,
+        "score": 58.4,
+        "high": false
+      }
+    ],
+    "best": "004Ki2rr4ISl1g"
+  },
+  {
+    "title": "\u7121\u9650\u7684\u6211 (\u65E0\u9650\u7684\u6211) (\uBB34\uD55C\uC801\uC544; LIMITLESS)",
+    "artist": "NCT 127",
+    "duration": 247,
+    "album": "NCT #127 Limitless - The 2nd Mini Album",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "live",
+        "title": "\u7121\u9650\u7684\u6211 (\u65E0\u9650\u7684\u6211) (\uBB34\uD55C\uC801\uC544; LIMITLESS) (Live)",
+        "artist": "NCT 127 (\uC5D4\uC2DC\uD2F0 127)",
+        "album": "NEO CITY : SEOUL \u2013 The Origin \u2013 The 1st Live Album",
+        "duration": 278,
+        "score": 58.4,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "chain",
+        "title": "Limitless",
+        "artist": "NCT 127 (\uC5D4\uC2DC\uD2F0 127)",
+        "album": "Chain",
+        "duration": 247,
+        "score": 84.43,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "002xhscJ0Euos8",
+        "title": "\u65E0\u9650\u7684\u6211",
+        "artist": "NCT 127 (\uC5D4\uC2DC\uD2F0 127)",
+        "album": "",
+        "duration": 218,
+        "score": 91.4,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "004Ki2rr4ISl1g",
+        "title": "\u7121\u9650\u7684\u6211 (\u65E0\u9650\u7684\u6211) (\uBB34\uD55C\uC801\uC544; LIMITLESS)",
+        "artist": "NCT 127 (\uC5D4\uC2DC\uD2F0 127)",
+        "album": "NCT #127 Limitless - The 2nd Mini Album",
+        "duration": 247,
+        "score": 99.4,
+        "high": true
+      }
+    ],
+    "best": "004Ki2rr4ISl1g"
+  },
+  {
+    "title": "\u7121\u9650\u7684\u6211 (\u65E0\u9650\u7684\u6211) (\uBB34\uD55C\uC801\uC544; LIMITLESS)",
+    "artist": "NCT 127",
+    "duration": 247,
+    "album": "NCT #127 Limitless - The 2nd Mini Album",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "live",
+        "title": "\u7121\u9650\u7684\u6211 (\u65E0\u9650\u7684\u6211) (\uBB34\uD55C\uC801\uC544; LIMITLESS) (Live)",
+        "artist": "NCT 127 (\uC5D4\uC2DC\uD2F0 127)",
+        "album": "NEO CITY : SEOUL \u2013 The Origin \u2013 The 1st Live Album",
+        "duration": 278,
+        "score": 58.4,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "chain",
+        "title": "Limitless",
+        "artist": "NCT 127 (\uC5D4\uC2DC\uD2F0 127)",
+        "album": "Chain",
+        "duration": 247,
+        "score": 84.43,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "002xhscJ0Euos8",
+        "title": "\u65E0\u9650\u7684\u6211",
+        "artist": "NCT 127 (\uC5D4\uC2DC\uD2F0 127)",
+        "album": "",
+        "duration": 218,
+        "score": 91.4,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "004Ki2rr4ISl1g",
+        "title": "\u7121\u9650\u7684\u6211 (\u65E0\u9650\u7684\u6211) (\uBB34\uD55C\uC801\uC544; LIMITLESS)",
+        "artist": "NCT 127 (\uC5D4\uC2DC\uD2F0 127)",
+        "album": "NCT #127 Limitless - The 2nd Mini Album",
+        "duration": 247,
+        "score": 99.4,
+        "high": true
+      }
+    ],
+    "best": "004Ki2rr4ISl1g"
+  },
+  {
+    "title": "\u7121\u9650\u7684\u6211 (\u65E0\u9650\u7684\u6211) (\uBB34\uD55C\uC801\uC544; LIMITLESS)",
+    "artist": "NCT 127",
+    "duration": 247,
+    "album": "",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "correct",
+        "title": "\u7121\u9650\u7684\u6211 (\u65E0\u9650\u7684\u6211) (\uBB34\uD55C\uC801\uC544; LIMITLESS)",
+        "artist": "NCT 127 (\uC5D4\uC2DC\uD2F0 127)",
+        "album": "NCT #127 Limitless - The 2nd Mini Album",
+        "duration": 247,
+        "score": 99.3,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "other",
+        "title": "\u65E0\u9650\u7684\u6211",
+        "artist": "NCT 127 (\uC5D4\uC2DC\uD2F0 127)",
+        "album": "",
+        "duration": 218,
+        "score": 97.45,
+        "high": true
+      }
+    ],
+    "best": "correct"
+  },
+  {
+    "title": "\u7121\u9650\u7684\u6211 (\u65E0\u9650\u7684\u6211) (\uBB34\uD55C\uC801\uC544; LIMITLESS)",
+    "artist": "NCT 127",
+    "duration": 0,
+    "album": "NCT #127 Limitless - The 2nd Mini Album",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "correct",
+        "title": "\u7121\u9650\u7684\u6211 (\u65E0\u9650\u7684\u6211) (\uBB34\uD55C\uC801\uC544; LIMITLESS)",
+        "artist": "NCT 127 (\uC5D4\uC2DC\uD2F0 127)",
+        "album": "NCT #127 Limitless - The 2nd Mini Album",
+        "duration": 247,
+        "score": 99.3,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "other",
+        "title": "\u65E0\u9650\u7684\u6211",
+        "artist": "NCT 127 (\uC5D4\uC2DC\uD2F0 127)",
+        "album": "",
+        "duration": 218,
+        "score": 97.45,
+        "high": true
+      }
+    ],
+    "best": "correct"
+  },
+  {
+    "title": "\u7121\u9650\u7684\u6211 (\u65E0\u9650\u7684\u6211) (\uBB34\uD55C\uC801\uC544; LIMITLESS)",
+    "artist": "NCT 127",
+    "duration": 270,
+    "album": "NCT #127 Limitless - The 2nd Mini Album",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "correct",
+        "title": "\u7121\u9650\u7684\u6211 (\u65E0\u9650\u7684\u6211) (\uBB34\uD55C\uC801\uC544; LIMITLESS)",
+        "artist": "NCT 127 (\uC5D4\uC2DC\uD2F0 127)",
+        "album": "NCT #127 Limitless - The 2nd Mini Album",
+        "duration": 247,
+        "score": 99.3,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "other",
+        "title": "\u65E0\u9650\u7684\u6211",
+        "artist": "NCT 127 (\uC5D4\uC2DC\uD2F0 127)",
+        "album": "",
+        "duration": 218,
+        "score": 70,
+        "high": false
+      }
+    ],
+    "best": "correct"
+  },
+  {
+    "title": "\u7121\u9650\u7684\u6211 (\u65E0\u9650\u7684\u6211) (\uBB34\uD55C\uC801\uC544; LIMITLESS)",
+    "artist": "NCT 127",
+    "duration": 247,
+    "album": "NCT #127 Limitless - The 2nd Mini Album",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "correct",
+        "title": "\u7121\u9650\u7684\u6211 (\u65E0\u9650\u7684\u6211) (\uBB34\uD55C\uC801\uC544; LIMITLESS)",
+        "artist": "NCT 127 (\uC5D4\uC2DC\uD2F0 127)",
+        "album": "NCT #127 Limitless - The 2nd Mini Album",
+        "duration": 247,
+        "score": 99.4,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "other",
+        "title": "\u65E0\u9650\u7684\u6211",
+        "artist": "NCT 127 (\uC5D4\uC2DC\uD2F0 127)",
+        "album": "NCT #127 Limitless - The 2nd Mini Album",
+        "duration": 218,
+        "score": 97.8,
+        "high": true
+      }
+    ],
+    "best": "correct"
+  },
+  {
+    "title": "\u7121\u9650\u7684\u6211 (\u65E0\u9650\u7684\u6211) (\uBB34\uD55C\uC801\uC544; LIMITLESS)",
+    "artist": "NCT 127",
+    "duration": 247,
+    "album": "NCT #127 Limitless - The 2nd Mini Album",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "correct",
+        "title": "\u7121\u9650\u7684\u6211 (\u65E0\u9650\u7684\u6211) (\uBB34\uD55C\uC801\uC544; LIMITLESS)",
+        "artist": "NCT 127 (\uC5D4\uC2DC\uD2F0 127)",
+        "album": "NCT #127 Limitless - The 2nd Mini Album",
+        "duration": 247,
+        "score": 99.4,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "other",
+        "title": "\u65E0\u9650\u7684\u6211",
+        "artist": "NCT 127 (\uC5D4\uC2DC\uD2F0 127)",
+        "album": "",
+        "duration": 0,
+        "score": 70,
+        "high": false
+      }
+    ],
+    "best": "correct"
+  },
+  {
+    "title": "\u7121\u9650\u7684\u6211 (\u65E0\u9650\u7684\u6211) (\uBB34\uD55C\uC801\uC544; LIMITLESS)",
+    "artist": "NCT 127",
+    "duration": 247,
+    "album": "NCT #127 Limitless - The 2nd Mini Album",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "correct",
+        "title": "\u7121\u9650\u7684\u6211 (\u65E0\u9650\u7684\u6211) (\uBB34\uD55C\uC801\uC544; LIMITLESS)",
+        "artist": "NCT 127 (\uC5D4\uC2DC\uD2F0 127)",
+        "album": "NCT #127 Limitless - The 2nd Mini Album",
+        "duration": 247,
+        "score": 99.4,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "other",
+        "title": "\u65E0\u9650\u7684\u6211",
+        "artist": "NCT 127 (\uC5D4\uC2DC\uD2F0 127)",
+        "album": "",
+        "duration": 227,
+        "score": 81.95,
+        "high": true
+      }
+    ],
+    "best": "correct"
+  },
+  {
+    "title": "\u7121\u9650\u7684\u6211 (\u65E0\u9650\u7684\u6211) (\uBB34\uD55C\uC801\uC544; LIMITLESS)",
+    "artist": "NCT 127",
+    "duration": 247,
+    "album": "NCT #127 Limitless - The 2nd Mini Album",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "correct",
+        "title": "\u7121\u9650\u7684\u6211 (\u65E0\u9650\u7684\u6211) (\uBB34\uD55C\uC801\uC544; LIMITLESS)",
+        "artist": "NCT 127 (\uC5D4\uC2DC\uD2F0 127)",
+        "album": "NCT #127 Limitless - The 2nd Mini Album",
+        "duration": 247,
+        "score": 99.4,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "other",
+        "title": "\u65E0\u9650\u7684\u6211",
+        "artist": "NCT 127 (\uC5D4\uC2DC\uD2F0 127)",
+        "album": "",
+        "duration": 226,
+        "score": 91.4,
+        "high": false
+      }
+    ],
+    "best": "correct"
+  },
+  {
+    "title": "\u7121\u9650\u7684\u6211 (\u65E0\u9650\u7684\u6211) (\uBB34\uD55C\uC801\uC544; LIMITLESS) (Japanese Ver.)",
+    "artist": "NCT 127",
+    "duration": 247,
+    "album": "NCT #127 Limitless - The 2nd Mini Album",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "correct",
+        "title": "\u7121\u9650\u7684\u6211 (\u65E0\u9650\u7684\u6211) (\uBB34\uD55C\uC801\uC544; LIMITLESS)",
+        "artist": "NCT 127 (\uC5D4\uC2DC\uD2F0 127)",
+        "album": "NCT #127 Limitless - The 2nd Mini Album",
+        "duration": 247,
+        "score": 63.4,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "other",
+        "title": "\u65E0\u9650\u7684\u6211",
+        "artist": "NCT 127 (\uC5D4\uC2DC\uD2F0 127)",
+        "album": "",
+        "duration": 218,
+        "score": 67.45,
+        "high": false
+      }
+    ],
+    "best": "other"
+  },
+  {
+    "title": "2.0",
+    "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+    "duration": 169,
+    "album": "ARIRANG (Explicit Ver.)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "002ANwiz3TQKQx",
+        "title": "2.0",
+        "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+        "album": "",
+        "duration": 171,
+        "score": 92,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "002Ha9JP1mFRf1",
+        "title": "2.0",
+        "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+        "album": "ARIRANG (Explicit Ver.)",
+        "duration": 169,
+        "score": 100,
+        "high": true
+      }
+    ],
+    "best": "002Ha9JP1mFRf1"
+  },
+  {
+    "title": "2.0",
+    "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+    "duration": 169,
+    "album": "ARIRANG (Explicit Ver.)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "002ANwiz3TQKQx",
+        "title": "2.0",
+        "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+        "album": "",
+        "duration": 171,
+        "score": 92,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "002Ha9JP1mFRf1",
+        "title": "2.0",
+        "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+        "album": "ARIRANG (Explicit Ver.)",
+        "duration": 169,
+        "score": 100,
+        "high": true
+      }
+    ],
+    "best": "002Ha9JP1mFRf1"
+  },
+  {
+    "title": "2.0",
+    "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+    "duration": 169,
+    "album": "ARIRANG (Explicit Ver.)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "002Ha9JP1mFRf1",
+        "title": "2.0",
+        "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+        "album": "ARIRANG (Explicit Ver.)",
+        "duration": 169,
+        "score": 100,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "002ANwiz3TQKQx",
+        "title": "2.0",
+        "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+        "album": "",
+        "duration": 171,
+        "score": 92,
+        "high": false
+      }
+    ],
+    "best": "002Ha9JP1mFRf1"
+  },
+  {
+    "title": "2.0",
+    "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+    "duration": 169,
+    "album": "ARIRANG (Explicit Ver.)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "002Ha9JP1mFRf1",
+        "title": "2.0",
+        "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+        "album": "ARIRANG (Explicit Ver.)",
+        "duration": 169,
+        "score": 100,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "002ANwiz3TQKQx",
+        "title": "2.0",
+        "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+        "album": "",
+        "duration": 171,
+        "score": 92,
+        "high": false
+      }
+    ],
+    "best": "002Ha9JP1mFRf1"
+  },
+  {
+    "title": "2.0",
+    "artist": "BTS",
+    "duration": 169,
+    "album": "",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "blank",
+        "title": "2.0",
+        "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+        "album": "",
+        "duration": 171,
+        "score": 99.3,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "known",
+        "title": "2.0",
+        "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+        "album": "ARIRANG (Explicit Ver.)",
+        "duration": 169,
+        "score": 99.3,
+        "high": true
+      }
+    ],
+    "best": "blank"
+  },
+  {
+    "title": "2.0",
+    "artist": "BTS",
+    "duration": 169,
+    "album": "Unrelated release",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "blank",
+        "title": "2.0",
+        "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+        "album": "",
+        "duration": 171,
+        "score": 99.3,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "known",
+        "title": "2.0",
+        "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+        "album": "ARIRANG (Explicit Ver.)",
+        "duration": 169,
+        "score": 91.14,
+        "high": false
+      }
+    ],
+    "best": "blank"
+  },
+  {
+    "title": "2.0",
+    "artist": "BTS",
+    "duration": 169,
+    "album": "ARIRANG (Explicit Ver.)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "other",
+        "title": "2.0",
+        "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+        "album": "Other album",
+        "duration": 171,
+        "score": 90.27,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "known",
+        "title": "2.0",
+        "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+        "album": "ARIRANG (Explicit Ver.)",
+        "duration": 169,
+        "score": 99.4,
+        "high": true
+      }
+    ],
+    "best": "known"
+  },
+  {
+    "title": "2.0",
+    "artist": "BTS",
+    "duration": 169,
+    "album": "ARIRANG (Explicit Ver.)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "original",
+        "title": "2.0",
+        "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+        "album": "",
+        "duration": 171,
+        "score": 99.3,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "language",
+        "title": "2.0 (Japanese ver.)",
+        "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+        "album": "ARIRANG (Explicit Ver.)",
+        "duration": 169,
+        "score": 63.4,
+        "high": false
+      }
+    ],
+    "best": "original"
+  },
+  {
+    "title": "2.0",
+    "artist": "BTS",
+    "duration": 0,
+    "album": "ARIRANG (Explicit Ver.)",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "missing",
+        "title": "2.0",
+        "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+        "album": "",
+        "duration": 171,
+        "score": 99.1,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "full",
+        "title": "2.0",
+        "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+        "album": "ARIRANG (Explicit Ver.)",
+        "duration": 169,
+        "score": 99.3,
+        "high": false
+      }
+    ],
+    "best": "full"
+  },
+  {
+    "title": "HOT",
+    "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "000xuQkh0Df42Y",
+        "title": "HOT",
+        "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 100,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 94,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "002Rdedb1JJwZy",
+        "title": "HOT (English ver.)",
+        "artist": "LE SSERAFIM",
+        "album": "HOT (English ver.)",
+        "duration": 143,
+        "score": 94.9,
+        "high": true
+      }
+    ],
+    "best": "000xuQkh0Df42Y"
+  },
+  {
+    "title": "HOT",
+    "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "000xuQkh0Df42Y",
+        "title": "HOT",
+        "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 100,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 94,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "002Rdedb1JJwZy",
+        "title": "HOT (English ver.)",
+        "artist": "LE SSERAFIM",
+        "album": "HOT (English ver.)",
+        "duration": 143,
+        "score": 94.9,
+        "high": true
+      }
+    ],
+    "best": "000xuQkh0Df42Y"
+  },
+  {
+    "title": "HOT",
+    "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "000xuQkh0Df42Y",
+        "title": "HOT",
+        "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 100,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "002Rdedb1JJwZy",
+        "title": "HOT (English ver.)",
+        "artist": "LE SSERAFIM",
+        "album": "HOT (English ver.)",
+        "duration": 143,
+        "score": 94.9,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 94,
+        "high": false
+      }
+    ],
+    "best": "000xuQkh0Df42Y"
+  },
+  {
+    "title": "HOT",
+    "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "000xuQkh0Df42Y",
+        "title": "HOT",
+        "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 100,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "002Rdedb1JJwZy",
+        "title": "HOT (English ver.)",
+        "artist": "LE SSERAFIM",
+        "album": "HOT (English ver.)",
+        "duration": 143,
+        "score": 94.9,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 94,
+        "high": false
+      }
+    ],
+    "best": "000xuQkh0Df42Y"
+  },
+  {
+    "title": "HOT",
+    "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 94,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "000xuQkh0Df42Y",
+        "title": "HOT",
+        "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 100,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "002Rdedb1JJwZy",
+        "title": "HOT (English ver.)",
+        "artist": "LE SSERAFIM",
+        "album": "HOT (English ver.)",
+        "duration": 143,
+        "score": 94.9,
+        "high": true
+      }
+    ],
+    "best": "000xuQkh0Df42Y"
+  },
+  {
+    "title": "HOT",
+    "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 94,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "000xuQkh0Df42Y",
+        "title": "HOT",
+        "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 100,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "002Rdedb1JJwZy",
+        "title": "HOT (English ver.)",
+        "artist": "LE SSERAFIM",
+        "album": "HOT (English ver.)",
+        "duration": 143,
+        "score": 94.9,
+        "high": true
+      }
+    ],
+    "best": "000xuQkh0Df42Y"
+  },
+  {
+    "title": "HOT",
+    "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 94,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "002Rdedb1JJwZy",
+        "title": "HOT (English ver.)",
+        "artist": "LE SSERAFIM",
+        "album": "HOT (English ver.)",
+        "duration": 143,
+        "score": 94.9,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "000xuQkh0Df42Y",
+        "title": "HOT",
+        "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 100,
+        "high": true
+      }
+    ],
+    "best": "000xuQkh0Df42Y"
+  },
+  {
+    "title": "HOT",
+    "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 94,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "002Rdedb1JJwZy",
+        "title": "HOT (English ver.)",
+        "artist": "LE SSERAFIM",
+        "album": "HOT (English ver.)",
+        "duration": 143,
+        "score": 94.9,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "000xuQkh0Df42Y",
+        "title": "HOT",
+        "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 100,
+        "high": true
+      }
+    ],
+    "best": "000xuQkh0Df42Y"
+  },
+  {
+    "title": "HOT",
+    "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "002Rdedb1JJwZy",
+        "title": "HOT (English ver.)",
+        "artist": "LE SSERAFIM",
+        "album": "HOT (English ver.)",
+        "duration": 143,
+        "score": 94.9,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "000xuQkh0Df42Y",
+        "title": "HOT",
+        "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 100,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 94,
+        "high": false
+      }
+    ],
+    "best": "000xuQkh0Df42Y"
+  },
+  {
+    "title": "HOT",
+    "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "002Rdedb1JJwZy",
+        "title": "HOT (English ver.)",
+        "artist": "LE SSERAFIM",
+        "album": "HOT (English ver.)",
+        "duration": 143,
+        "score": 94.9,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "000xuQkh0Df42Y",
+        "title": "HOT",
+        "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 100,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 94,
+        "high": false
+      }
+    ],
+    "best": "000xuQkh0Df42Y"
+  },
+  {
+    "title": "HOT",
+    "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "002Rdedb1JJwZy",
+        "title": "HOT (English ver.)",
+        "artist": "LE SSERAFIM",
+        "album": "HOT (English ver.)",
+        "duration": 143,
+        "score": 94.9,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 94,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "000xuQkh0Df42Y",
+        "title": "HOT",
+        "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 100,
+        "high": true
+      }
+    ],
+    "best": "000xuQkh0Df42Y"
+  },
+  {
+    "title": "HOT",
+    "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "002Rdedb1JJwZy",
+        "title": "HOT (English ver.)",
+        "artist": "LE SSERAFIM",
+        "album": "HOT (English ver.)",
+        "duration": 143,
+        "score": 94.9,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 94,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "000xuQkh0Df42Y",
+        "title": "HOT",
+        "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 100,
+        "high": true
+      }
+    ],
+    "best": "000xuQkh0Df42Y"
+  },
+  {
+    "title": "HOT (English ver.)(feat. JADE)",
+    "artist": "LE SSERAFIM / JADE",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "000xuQkh0Df42Y",
+        "title": "HOT",
+        "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 94,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 100,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "002Rdedb1JJwZy",
+        "title": "HOT (English ver.)",
+        "artist": "LE SSERAFIM",
+        "album": "HOT (English ver.)",
+        "duration": 143,
+        "score": 94,
+        "high": false
+      }
+    ],
+    "best": "000WTa9W2U2VDH"
+  },
+  {
+    "title": "HOT (English ver.)(feat. JADE)",
+    "artist": "LE SSERAFIM / JADE",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "000xuQkh0Df42Y",
+        "title": "HOT",
+        "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 94,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 100,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "002Rdedb1JJwZy",
+        "title": "HOT (English ver.)",
+        "artist": "LE SSERAFIM",
+        "album": "HOT (English ver.)",
+        "duration": 143,
+        "score": 94,
+        "high": false
+      }
+    ],
+    "best": "000WTa9W2U2VDH"
+  },
+  {
+    "title": "HOT (English ver.)(feat. JADE)",
+    "artist": "LE SSERAFIM",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "000xuQkh0Df42Y",
+        "title": "HOT",
+        "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 94,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 100,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "002Rdedb1JJwZy",
+        "title": "HOT (English ver.)",
+        "artist": "LE SSERAFIM",
+        "album": "HOT (English ver.)",
+        "duration": 143,
+        "score": 94,
+        "high": false
+      }
+    ],
+    "best": "000WTa9W2U2VDH"
+  },
+  {
+    "title": "HOT (English ver.)(feat. JADE)",
+    "artist": "LE SSERAFIM",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "000xuQkh0Df42Y",
+        "title": "HOT",
+        "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 94,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 100,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "002Rdedb1JJwZy",
+        "title": "HOT (English ver.)",
+        "artist": "LE SSERAFIM",
+        "album": "HOT (English ver.)",
+        "duration": 143,
+        "score": 94,
+        "high": false
+      }
+    ],
+    "best": "000WTa9W2U2VDH"
+  },
+  {
+    "title": "HOT (English ver.)(feat. JADE)",
+    "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "000xuQkh0Df42Y",
+        "title": "HOT",
+        "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 94,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 100,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "002Rdedb1JJwZy",
+        "title": "HOT (English ver.)",
+        "artist": "LE SSERAFIM",
+        "album": "HOT (English ver.)",
+        "duration": 143,
+        "score": 94,
+        "high": false
+      }
+    ],
+    "best": "000WTa9W2U2VDH"
+  },
+  {
+    "title": "HOT (English ver.)(feat. JADE)",
+    "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "000xuQkh0Df42Y",
+        "title": "HOT",
+        "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 94,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 100,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "002Rdedb1JJwZy",
+        "title": "HOT (English ver.)",
+        "artist": "LE SSERAFIM",
+        "album": "HOT (English ver.)",
+        "duration": 143,
+        "score": 94,
+        "high": false
+      }
+    ],
+    "best": "000WTa9W2U2VDH"
+  },
+  {
+    "title": "HOT (English ver.)(feat. JADE)",
+    "artist": "LE SSERAFIM / JADE",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "002Rdedb1JJwZy",
+        "title": "HOT (English ver.)",
+        "artist": "LE SSERAFIM",
+        "album": "HOT (English ver.)",
+        "duration": 143,
+        "score": 94,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 100,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "000xuQkh0Df42Y",
+        "title": "HOT",
+        "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 94,
+        "high": false
+      }
+    ],
+    "best": "000WTa9W2U2VDH"
+  },
+  {
+    "title": "HOT (English ver.)(feat. JADE)",
+    "artist": "LE SSERAFIM / JADE",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "002Rdedb1JJwZy",
+        "title": "HOT (English ver.)",
+        "artist": "LE SSERAFIM",
+        "album": "HOT (English ver.)",
+        "duration": 143,
+        "score": 94,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 100,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "000xuQkh0Df42Y",
+        "title": "HOT",
+        "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 94,
+        "high": false
+      }
+    ],
+    "best": "000WTa9W2U2VDH"
+  },
+  {
+    "title": "HOT (English ver.)(feat. JADE)",
+    "artist": "LE SSERAFIM",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "002Rdedb1JJwZy",
+        "title": "HOT (English ver.)",
+        "artist": "LE SSERAFIM",
+        "album": "HOT (English ver.)",
+        "duration": 143,
+        "score": 94,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 100,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "000xuQkh0Df42Y",
+        "title": "HOT",
+        "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 94,
+        "high": false
+      }
+    ],
+    "best": "000WTa9W2U2VDH"
+  },
+  {
+    "title": "HOT (English ver.)(feat. JADE)",
+    "artist": "LE SSERAFIM",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "002Rdedb1JJwZy",
+        "title": "HOT (English ver.)",
+        "artist": "LE SSERAFIM",
+        "album": "HOT (English ver.)",
+        "duration": 143,
+        "score": 94,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 100,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "000xuQkh0Df42Y",
+        "title": "HOT",
+        "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 94,
+        "high": false
+      }
+    ],
+    "best": "000WTa9W2U2VDH"
+  },
+  {
+    "title": "HOT (English ver.)(feat. JADE)",
+    "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "002Rdedb1JJwZy",
+        "title": "HOT (English ver.)",
+        "artist": "LE SSERAFIM",
+        "album": "HOT (English ver.)",
+        "duration": 143,
+        "score": 94,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 100,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "000xuQkh0Df42Y",
+        "title": "HOT",
+        "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 94,
+        "high": false
+      }
+    ],
+    "best": "000WTa9W2U2VDH"
+  },
+  {
+    "title": "HOT (English ver.)(feat. JADE)",
+    "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "002Rdedb1JJwZy",
+        "title": "HOT (English ver.)",
+        "artist": "LE SSERAFIM",
+        "album": "HOT (English ver.)",
+        "duration": 143,
+        "score": 94,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 100,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "000xuQkh0Df42Y",
+        "title": "HOT",
+        "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 94,
+        "high": false
+      }
+    ],
+    "best": "000WTa9W2U2VDH"
+  },
+  {
+    "title": "HOT",
+    "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+    "duration": 143,
+    "album": "",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "000xuQkh0Df42Y",
+        "title": "HOT",
+        "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 70,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 62.55,
+        "high": false
+      }
+    ],
+    "best": "000xuQkh0Df42Y"
+  },
+  {
+    "title": "HOT",
+    "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "000xuQkh0Df42Y",
+        "title": "HOT",
+        "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+        "album": "",
+        "duration": 143,
+        "score": 70,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 96.4,
+        "high": true
+      }
+    ],
+    "best": "000WTa9W2U2VDH"
+  },
+  {
+    "title": "HOT",
+    "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "000xuQkh0Df42Y",
+        "title": "HOT",
+        "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 100,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "",
+        "duration": 143,
+        "score": 95.55,
+        "high": true
+      }
+    ],
+    "best": "000xuQkh0Df42Y"
+  },
+  {
+    "title": "HOT",
+    "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+    "duration": 0,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "000xuQkh0Df42Y",
+        "title": "HOT",
+        "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 100,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 94.8,
+        "high": true
+      }
+    ],
+    "best": "000xuQkh0Df42Y"
+  },
+  {
+    "title": "HOT",
+    "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "000xuQkh0Df42Y",
+        "title": "HOT",
+        "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 0,
+        "score": 100,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 96.4,
+        "high": true
+      }
+    ],
+    "best": "000xuQkh0Df42Y"
+  },
+  {
+    "title": "HOT",
+    "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "000xuQkh0Df42Y",
+        "title": "HOT",
+        "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 100,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 0,
+        "score": 70,
+        "high": false
+      }
+    ],
+    "best": "000xuQkh0Df42Y"
+  },
+  {
+    "title": "HOT",
+    "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "000xuQkh0Df42Y",
+        "title": "HOT",
+        "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 146,
+        "score": 100,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 96.4,
+        "high": true
+      }
+    ],
+    "best": "000xuQkh0Df42Y"
+  },
+  {
+    "title": "HOT",
+    "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "000xuQkh0Df42Y",
+        "title": "HOT",
+        "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 100,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 146,
+        "score": 94.4,
+        "high": true
+      }
+    ],
+    "best": "000xuQkh0Df42Y"
+  },
+  {
+    "title": "HOT",
+    "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "000xuQkh0Df42Y",
+        "title": "HOT",
+        "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 145,
+        "score": 100,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 141,
+        "score": 96.4,
+        "high": true
+      }
+    ],
+    "best": "000xuQkh0Df42Y"
+  },
+  {
+    "title": "HOT",
+    "artist": "",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "000xuQkh0Df42Y",
+        "title": "HOT",
+        "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 100,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 91,
+        "high": true
+      }
+    ],
+    "best": "000xuQkh0Df42Y"
+  },
+  {
+    "title": "HOT",
+    "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "000xuQkh0Df42Y",
+        "title": "HOT",
+        "artist": "",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 60,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 96.4,
+        "high": true
+      }
+    ],
+    "best": "000WTa9W2U2VDH"
+  },
+  {
+    "title": "HOT",
+    "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "000xuQkh0Df42Y",
+        "title": "HOT",
+        "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 100,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "Other Artist / JADE",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 60,
+        "high": false
+      }
+    ],
+    "best": "000xuQkh0Df42Y"
+  },
+  {
+    "title": "HOT",
+    "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "000xuQkh0Df42Y",
+        "title": "HOT",
+        "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 100,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (Festival Edition)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 96.4,
+        "high": true
+      }
+    ],
+    "best": "000xuQkh0Df42Y"
+  },
+  {
+    "title": "HOT",
+    "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "000xuQkh0Df42Y",
+        "title": "HOT",
+        "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 100,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(Festival Edition)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 96.4,
+        "high": true
+      }
+    ],
+    "best": "000xuQkh0Df42Y"
+  },
+  {
+    "title": "HOT",
+    "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "000xuQkh0Df42Y",
+        "title": "HOT",
+        "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 100,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 96.4,
+        "high": true
+      }
+    ],
+    "best": "000xuQkh0Df42Y"
+  },
+  {
+    "title": "HOT",
+    "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "000xuQkh0Df42Y",
+        "title": "HOT",
+        "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 100,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT AIR (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 96.4,
+        "high": true
+      }
+    ],
+    "best": "000xuQkh0Df42Y"
+  },
+  {
+    "title": "HOT",
+    "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "000xuQkh0Df42Y",
+        "title": "HOT",
+        "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 100,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.)",
+        "duration": 143,
+        "score": 94.9,
+        "high": true
+      }
+    ],
+    "best": "000xuQkh0Df42Y"
+  },
+  {
+    "title": "HOT",
+    "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "000xuQkh0Df42Y",
+        "title": "\u71B1 (HOT)",
+        "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 100,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 96.4,
+        "high": true
+      }
+    ],
+    "best": "000xuQkh0Df42Y"
+  },
+  {
+    "title": "HOT",
+    "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 96.4,
+        "high": true
+      }
+    ],
+    "best": "000WTa9W2U2VDH"
+  },
+  {
+    "title": "HOT",
+    "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "000xuQkh0Df42Y",
+        "title": "HOT",
+        "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 145,
+        "score": 100,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 94,
+        "high": false
+      }
+    ],
+    "best": "000xuQkh0Df42Y"
+  },
+  {
+    "title": "HOT",
+    "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "000xuQkh0Df42Y",
+        "title": "HOT",
+        "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 100,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 145,
+        "score": 94,
+        "high": false
+      }
+    ],
+    "best": "000xuQkh0Df42Y"
+  },
+  {
+    "title": "HOT",
+    "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "000xuQkh0Df42Y",
+        "title": "HOT",
+        "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 141,
+        "score": 100,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 94,
+        "high": false
+      }
+    ],
+    "best": "000xuQkh0Df42Y"
+  },
+  {
+    "title": "HOT",
+    "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "000xuQkh0Df42Y",
+        "title": "HOT",
+        "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 100,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 141,
+        "score": 94,
+        "high": false
+      }
+    ],
+    "best": "000xuQkh0Df42Y"
+  },
+  {
+    "title": "HOT (English ver.)",
+    "artist": "LE SSERAFIM",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 97,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "002Rdedb1JJwZy",
+        "title": "HOT (English ver.)",
+        "artist": "LE SSERAFIM",
+        "album": "HOT (English ver.)",
+        "duration": 143,
+        "score": 100,
+        "high": false
+      }
+    ],
+    "best": "002Rdedb1JJwZy"
+  },
+  {
+    "title": "HOT (English ver.)(feat. JADE)",
+    "artist": "LE SSERAFIM",
+    "duration": 143,
+    "album": "",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 100,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "002Rdedb1JJwZy",
+        "title": "HOT (English ver.)",
+        "artist": "LE SSERAFIM",
+        "album": "HOT (English ver.)",
+        "duration": 143,
+        "score": 96.25,
+        "high": true
+      }
+    ],
+    "best": "000WTa9W2U2VDH"
+  },
+  {
+    "title": "HOT (English ver.)(feat. JADE)",
+    "artist": "LE SSERAFIM",
+    "duration": 0,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 100,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "002Rdedb1JJwZy",
+        "title": "HOT (English ver.)",
+        "artist": "LE SSERAFIM",
+        "album": "HOT (English ver.)",
+        "duration": 143,
+        "score": 93.25,
+        "high": true
+      }
+    ],
+    "best": "000WTa9W2U2VDH"
+  },
+  {
+    "title": "HOT (English ver.)(feat. JADE)",
+    "artist": "LE SSERAFIM",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 100,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "002Rdedb1JJwZy",
+        "title": "HOT (English ver.)",
+        "artist": "LE SSERAFIM",
+        "album": "HOT (English ver.)",
+        "duration": 143,
+        "score": 95.5,
+        "high": true
+      }
+    ],
+    "best": "000WTa9W2U2VDH"
+  },
+  {
+    "title": "HOT (English ver.)(feat. JADE)",
+    "artist": "LE SSERAFIM",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 100,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "002Rdedb1JJwZy",
+        "title": "HOT (English ver.)",
+        "artist": "LE SSERAFIM / Other Guest",
+        "album": "HOT (English ver.)",
+        "duration": 143,
+        "score": 95.5,
+        "high": true
+      }
+    ],
+    "best": "000WTa9W2U2VDH"
+  },
+  {
+    "title": "HOT (English ver.)(feat. JADE)",
+    "artist": "LE SSERAFIM",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 100,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "002Rdedb1JJwZy",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM",
+        "album": "HOT (English ver.)",
+        "duration": 143,
+        "score": 100,
+        "high": true
+      }
+    ],
+    "best": "000WTa9W2U2VDH"
+  },
+  {
+    "title": "HOT (English ver.)(feat. JADE)",
+    "artist": "LE SSERAFIM",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 100,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "002Rdedb1JJwZy",
+        "title": "HOT (English ver.)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.)",
+        "duration": 143,
+        "score": 95.5,
+        "high": true
+      }
+    ],
+    "best": "000WTa9W2U2VDH"
+  },
+  {
+    "title": "HOT (English ver.)(feat. JADE)",
+    "artist": "LE SSERAFIM",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 100,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "002Rdedb1JJwZy",
+        "title": "HOT (English ver.)",
+        "artist": "LE SSERAFIM",
+        "album": "HOT (English ver.) (Deluxe)",
+        "duration": 143,
+        "score": 94.86,
+        "high": true
+      }
+    ],
+    "best": "000WTa9W2U2VDH"
+  },
+  {
+    "title": "HOT (English ver.)(feat. JADE)",
+    "artist": "LE SSERAFIM",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 100,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "002Rdedb1JJwZy",
+        "title": "HOT AIR (English ver.)",
+        "artist": "LE SSERAFIM",
+        "album": "HOT (English ver.)",
+        "duration": 143,
+        "score": 82.24,
+        "high": false
+      }
+    ],
+    "best": "000WTa9W2U2VDH"
+  },
+  {
+    "title": "HOT (English ver.)(feat. JADE)",
+    "artist": "LE SSERAFIM",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 100,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "002Rdedb1JJwZy",
+        "title": "HOT (English ver.)",
+        "artist": "LE SSERAFIM / JADEX",
+        "album": "HOT (English ver.)",
+        "duration": 143,
+        "score": 95.5,
+        "high": true
+      }
+    ],
+    "best": "000WTa9W2U2VDH"
+  },
+  {
+    "title": "HOT (English ver.)(feat. JADE)",
+    "artist": "LE SSERAFIM",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE)",
+        "duration": 143,
+        "score": 100,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "002Rdedb1JJwZy",
+        "title": "HOT (English ver.)",
+        "artist": "LE SSERAFIM",
+        "album": "HOT (English ver.)",
+        "duration": 146,
+        "score": 93.5,
+        "high": true
+      }
+    ],
+    "best": "000WTa9W2U2VDH"
+  },
+  {
+    "title": "HOT",
+    "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE) (Archive Collection With Original Studio Recordings From The Complete International Release Catalogue 2025)",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "000xuQkh0Df42Y",
+        "title": "HOT",
+        "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+        "album": "HOT (English ver.) (feat. JADE) (Archive Collection With Original Studio Recordings From The Complete International Release Catalogue 2025)",
+        "duration": 143,
+        "score": 100,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE) (Archive Collection With Original Studio Recordings From The Complete International Release Catalogue 2026)",
+        "duration": 143,
+        "score": 96.33,
+        "high": true
+      }
+    ],
+    "best": "000xuQkh0Df42Y"
+  },
+  {
+    "title": "HOT",
+    "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE) (Archive Collection With Original Studio Recordings From The Complete International Release Catalogue 2025)",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "000xuQkh0Df42Y",
+        "title": "HOT",
+        "artist": "LE SSERAFIM (\uB974\uC138\uB77C\uD54C)",
+        "album": "HOT (English ver.) (feat. JADE) (Archive Collection With Original Studio Recordings From The Complete International Release Catalogue 2026)",
+        "duration": 143,
+        "score": 100,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE) (Archive Collection With Original Studio Recordings From The Complete International Release Catalogue 2025)",
+        "duration": 143,
+        "score": 96.4,
+        "high": true
+      }
+    ],
+    "best": "000xuQkh0Df42Y"
+  },
+  {
+    "title": "HOT (English ver.)(feat. JADE)",
+    "artist": "LE SSERAFIM / JADE",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE) (Archive Collection With Original Studio Recordings From The Complete International Release Catalogue 2025)",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE) (Archive Collection With Original Studio Recordings From The Complete International Release Catalogue 2025)",
+        "duration": 143,
+        "score": 100,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "002Rdedb1JJwZy",
+        "title": "HOT (English ver.)",
+        "artist": "LE SSERAFIM",
+        "album": "HOT (English ver.) (Archive Collection With Original Studio Recordings From The Complete International Release Catalogue 2026)",
+        "duration": 143,
+        "score": 96.19,
+        "high": true
+      }
+    ],
+    "best": "000WTa9W2U2VDH"
+  },
+  {
+    "title": "HOT (English ver.)(feat. JADE)",
+    "artist": "LE SSERAFIM / JADE",
+    "duration": 143,
+    "album": "HOT (English ver.) (feat. JADE) (Archive Collection With Original Studio Recordings From The Complete International Release Catalogue 2025)",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "000WTa9W2U2VDH",
+        "title": "HOT (English ver.)(feat. JADE)",
+        "artist": "LE SSERAFIM / JADE",
+        "album": "HOT (English ver.) (feat. JADE) (Archive Collection With Original Studio Recordings From The Complete International Release Catalogue 2026)",
+        "duration": 143,
+        "score": 100,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "002Rdedb1JJwZy",
+        "title": "HOT (English ver.)",
+        "artist": "LE SSERAFIM",
+        "album": "HOT (English ver.) (Archive Collection With Original Studio Recordings From The Complete International Release Catalogue 2025)",
+        "duration": 143,
+        "score": 96.26,
+        "high": true
+      }
+    ],
+    "best": "000WTa9W2U2VDH"
+  },
+  {
+    "title": "Butter",
+    "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+    "duration": 164,
+    "album": "Butter",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "001wepyO0z7U9l",
+        "title": "Butter",
+        "artist": "BTS",
+        "album": "Butter",
+        "duration": 164,
+        "score": 99.4,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "004f2tCx16CCOy",
+        "title": "Butter",
+        "artist": "BTS / Megan Thee Stallion",
+        "album": "Butter (feat. Megan Thee Stallion)",
+        "duration": 164,
+        "score": 93.4,
+        "high": false
+      }
+    ],
+    "best": "001wepyO0z7U9l"
+  },
+  {
+    "title": "Butter",
+    "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+    "duration": 164,
+    "album": "Butter",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "001wepyO0z7U9l",
+        "title": "Butter",
+        "artist": "BTS",
+        "album": "Butter",
+        "duration": 164,
+        "score": 99.4,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "004f2tCx16CCOy",
+        "title": "Butter",
+        "artist": "BTS / Megan Thee Stallion",
+        "album": "Butter (feat. Megan Thee Stallion)",
+        "duration": 164,
+        "score": 93.4,
+        "high": false
+      }
+    ],
+    "best": "001wepyO0z7U9l"
+  },
+  {
+    "title": "Butter",
+    "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+    "duration": 164,
+    "album": "Butter",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "004f2tCx16CCOy",
+        "title": "Butter",
+        "artist": "BTS / Megan Thee Stallion",
+        "album": "Butter (feat. Megan Thee Stallion)",
+        "duration": 164,
+        "score": 93.4,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "001wepyO0z7U9l",
+        "title": "Butter",
+        "artist": "BTS",
+        "album": "Butter",
+        "duration": 164,
+        "score": 99.4,
+        "high": true
+      }
+    ],
+    "best": "001wepyO0z7U9l"
+  },
+  {
+    "title": "Butter",
+    "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+    "duration": 164,
+    "album": "Butter",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "004f2tCx16CCOy",
+        "title": "Butter",
+        "artist": "BTS / Megan Thee Stallion",
+        "album": "Butter (feat. Megan Thee Stallion)",
+        "duration": 164,
+        "score": 93.4,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "001wepyO0z7U9l",
+        "title": "Butter",
+        "artist": "BTS",
+        "album": "Butter",
+        "duration": 164,
+        "score": 99.4,
+        "high": true
+      }
+    ],
+    "best": "001wepyO0z7U9l"
+  },
+  {
+    "title": "Butter",
+    "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2) / Megan Thee Stallion",
+    "duration": 164,
+    "album": "Butter (feat. Megan Thee Stallion)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "001wepyO0z7U9l",
+        "title": "Butter",
+        "artist": "BTS",
+        "album": "Butter",
+        "duration": 164,
+        "score": 94,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "004f2tCx16CCOy",
+        "title": "Butter",
+        "artist": "BTS / Megan Thee Stallion",
+        "album": "Butter (feat. Megan Thee Stallion)",
+        "duration": 164,
+        "score": 100,
+        "high": true
+      }
+    ],
+    "best": "004f2tCx16CCOy"
+  },
+  {
+    "title": "Butter",
+    "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2) / Megan Thee Stallion",
+    "duration": 164,
+    "album": "Butter (feat. Megan Thee Stallion)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "001wepyO0z7U9l",
+        "title": "Butter",
+        "artist": "BTS",
+        "album": "Butter",
+        "duration": 164,
+        "score": 94,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "004f2tCx16CCOy",
+        "title": "Butter",
+        "artist": "BTS / Megan Thee Stallion",
+        "album": "Butter (feat. Megan Thee Stallion)",
+        "duration": 164,
+        "score": 100,
+        "high": true
+      }
+    ],
+    "best": "004f2tCx16CCOy"
+  },
+  {
+    "title": "Butter",
+    "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2) / Megan Thee Stallion",
+    "duration": 164,
+    "album": "Butter (feat. Megan Thee Stallion)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "004f2tCx16CCOy",
+        "title": "Butter",
+        "artist": "BTS / Megan Thee Stallion",
+        "album": "Butter (feat. Megan Thee Stallion)",
+        "duration": 164,
+        "score": 100,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "001wepyO0z7U9l",
+        "title": "Butter",
+        "artist": "BTS",
+        "album": "Butter",
+        "duration": 164,
+        "score": 94,
+        "high": false
+      }
+    ],
+    "best": "004f2tCx16CCOy"
+  },
+  {
+    "title": "Butter",
+    "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2) / Megan Thee Stallion",
+    "duration": 164,
+    "album": "Butter (feat. Megan Thee Stallion)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "004f2tCx16CCOy",
+        "title": "Butter",
+        "artist": "BTS / Megan Thee Stallion",
+        "album": "Butter (feat. Megan Thee Stallion)",
+        "duration": 164,
+        "score": 100,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "001wepyO0z7U9l",
+        "title": "Butter",
+        "artist": "BTS",
+        "album": "Butter",
+        "duration": 164,
+        "score": 94,
+        "high": false
+      }
+    ],
+    "best": "004f2tCx16CCOy"
+  },
+  {
+    "title": "Evening Signal",
+    "artist": "North / South",
+    "duration": 164,
+    "album": "Evening Signal",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "original",
+        "title": "Evening Signal",
+        "artist": "North / South",
+        "album": "Evening Signal",
+        "duration": 164,
+        "score": 100,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "featured",
+        "title": "Evening Signal",
+        "artist": "South / North / East / West",
+        "album": "Evening Signal (ft. East \u0026 West)",
+        "duration": 164,
+        "score": 94,
+        "high": false
+      }
+    ],
+    "best": "original"
+  },
+  {
+    "title": "Evening Signal",
+    "artist": "North / South",
+    "duration": 164,
+    "album": "Evening Signal",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "original",
+        "title": "Evening Signal",
+        "artist": "North / South",
+        "album": "Evening Signal",
+        "duration": 164,
+        "score": 100,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "featured",
+        "title": "Evening Signal",
+        "artist": "South / North / East / West",
+        "album": "Evening Signal (ft. East \u0026 West)",
+        "duration": 164,
+        "score": 94,
+        "high": false
+      }
+    ],
+    "best": "original"
+  },
+  {
+    "title": "Evening Signal",
+    "artist": "North / South",
+    "duration": 164,
+    "album": "Evening Signal",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "featured",
+        "title": "Evening Signal",
+        "artist": "South / North / East / West",
+        "album": "Evening Signal (ft. East \u0026 West)",
+        "duration": 164,
+        "score": 94,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "original",
+        "title": "Evening Signal",
+        "artist": "North / South",
+        "album": "Evening Signal",
+        "duration": 164,
+        "score": 100,
+        "high": true
+      }
+    ],
+    "best": "original"
+  },
+  {
+    "title": "Evening Signal",
+    "artist": "North / South",
+    "duration": 164,
+    "album": "Evening Signal",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "featured",
+        "title": "Evening Signal",
+        "artist": "South / North / East / West",
+        "album": "Evening Signal (ft. East \u0026 West)",
+        "duration": 164,
+        "score": 94,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "original",
+        "title": "Evening Signal",
+        "artist": "North / South",
+        "album": "Evening Signal",
+        "duration": 164,
+        "score": 100,
+        "high": true
+      }
+    ],
+    "best": "original"
+  },
+  {
+    "title": "Evening Signal",
+    "artist": "South / North / East / West",
+    "duration": 164,
+    "album": "Evening Signal (ft. East \u0026 West)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "original",
+        "title": "Evening Signal",
+        "artist": "North / South",
+        "album": "Evening Signal",
+        "duration": 164,
+        "score": 94,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "featured",
+        "title": "Evening Signal",
+        "artist": "South / North / East / West",
+        "album": "Evening Signal (ft. East \u0026 West)",
+        "duration": 164,
+        "score": 100,
+        "high": true
+      }
+    ],
+    "best": "featured"
+  },
+  {
+    "title": "Evening Signal",
+    "artist": "South / North / East / West",
+    "duration": 164,
+    "album": "Evening Signal (ft. East \u0026 West)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "original",
+        "title": "Evening Signal",
+        "artist": "North / South",
+        "album": "Evening Signal",
+        "duration": 164,
+        "score": 94,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "featured",
+        "title": "Evening Signal",
+        "artist": "South / North / East / West",
+        "album": "Evening Signal (ft. East \u0026 West)",
+        "duration": 164,
+        "score": 100,
+        "high": true
+      }
+    ],
+    "best": "featured"
+  },
+  {
+    "title": "Evening Signal",
+    "artist": "South / North / East / West",
+    "duration": 164,
+    "album": "Evening Signal (ft. East \u0026 West)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "featured",
+        "title": "Evening Signal",
+        "artist": "South / North / East / West",
+        "album": "Evening Signal (ft. East \u0026 West)",
+        "duration": 164,
+        "score": 100,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "original",
+        "title": "Evening Signal",
+        "artist": "North / South",
+        "album": "Evening Signal",
+        "duration": 164,
+        "score": 94,
+        "high": false
+      }
+    ],
+    "best": "featured"
+  },
+  {
+    "title": "Evening Signal",
+    "artist": "South / North / East / West",
+    "duration": 164,
+    "album": "Evening Signal (ft. East \u0026 West)",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "featured",
+        "title": "Evening Signal",
+        "artist": "South / North / East / West",
+        "album": "Evening Signal (ft. East \u0026 West)",
+        "duration": 164,
+        "score": 100,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "original",
+        "title": "Evening Signal",
+        "artist": "North / South",
+        "album": "Evening Signal",
+        "duration": 164,
+        "score": 94,
+        "high": false
+      }
+    ],
+    "best": "featured"
+  },
+  {
+    "title": "Butter",
+    "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+    "duration": 164,
+    "album": "Butter",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "001wepyO0z7U9l",
+        "title": "Butter",
+        "artist": "BTS",
+        "album": "Butter",
+        "duration": 164,
+        "score": 99.4,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "004f2tCx16CCOy",
+        "title": "Butter",
+        "artist": "BTS / Megan Thee Stallion",
+        "album": "Butter (feat. Megan Thee Stallion)",
+        "duration": 164,
+        "score": 93.4,
+        "high": false
+      }
+    ],
+    "best": "001wepyO0z7U9l"
+  },
+  {
+    "title": "Butter",
+    "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+    "duration": 164,
+    "album": "",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "001wepyO0z7U9l",
+        "title": "Butter",
+        "artist": "BTS",
+        "album": "Butter",
+        "duration": 164,
+        "score": 99.3,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "004f2tCx16CCOy",
+        "title": "Butter",
+        "artist": "BTS / Megan Thee Stallion",
+        "album": "Butter (feat. Megan Thee Stallion)",
+        "duration": 164,
+        "score": 99.3,
+        "high": true
+      }
+    ],
+    "best": "001wepyO0z7U9l"
+  },
+  {
+    "title": "Butter",
+    "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+    "duration": 164,
+    "album": "Butter",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "001wepyO0z7U9l",
+        "title": "Butter",
+        "artist": "BTS",
+        "album": "",
+        "duration": 164,
+        "score": 99.3,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "004f2tCx16CCOy",
+        "title": "Butter",
+        "artist": "BTS / Megan Thee Stallion",
+        "album": "Butter (feat. Megan Thee Stallion)",
+        "duration": 164,
+        "score": 97.9,
+        "high": true
+      }
+    ],
+    "best": "001wepyO0z7U9l"
+  },
+  {
+    "title": "Butter",
+    "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+    "duration": 164,
+    "album": "Butter",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "001wepyO0z7U9l",
+        "title": "Butter",
+        "artist": "BTS",
+        "album": "Butter",
+        "duration": 164,
+        "score": 99.4,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "004f2tCx16CCOy",
+        "title": "Butter",
+        "artist": "BTS / Megan Thee Stallion",
+        "album": "",
+        "duration": 164,
+        "score": 91.4,
+        "high": false
+      }
+    ],
+    "best": "001wepyO0z7U9l"
+  },
+  {
+    "title": "Butter",
+    "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+    "duration": 0,
+    "album": "Butter",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "001wepyO0z7U9l",
+        "title": "Butter",
+        "artist": "BTS",
+        "album": "Butter",
+        "duration": 164,
+        "score": 99.3,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "004f2tCx16CCOy",
+        "title": "Butter",
+        "artist": "BTS / Megan Thee Stallion",
+        "album": "Butter (feat. Megan Thee Stallion)",
+        "duration": 164,
+        "score": 97.05,
+        "high": true
+      }
+    ],
+    "best": "001wepyO0z7U9l"
+  },
+  {
+    "title": "Butter",
+    "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+    "duration": 164,
+    "album": "Butter",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "001wepyO0z7U9l",
+        "title": "Butter",
+        "artist": "BTS",
+        "album": "Butter",
+        "duration": 0,
+        "score": 99.3,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "004f2tCx16CCOy",
+        "title": "Butter",
+        "artist": "BTS / Megan Thee Stallion",
+        "album": "Butter (feat. Megan Thee Stallion)",
+        "duration": 164,
+        "score": 97.9,
+        "high": true
+      }
+    ],
+    "best": "001wepyO0z7U9l"
+  },
+  {
+    "title": "Butter",
+    "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+    "duration": 164,
+    "album": "Butter",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "001wepyO0z7U9l",
+        "title": "Butter",
+        "artist": "BTS",
+        "album": "Butter",
+        "duration": 164,
+        "score": 99.4,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "004f2tCx16CCOy",
+        "title": "Butter",
+        "artist": "BTS / Megan Thee Stallion",
+        "album": "Butter (feat. Megan Thee Stallion)",
+        "duration": 0,
+        "score": 70,
+        "high": false
+      }
+    ],
+    "best": "001wepyO0z7U9l"
+  },
+  {
+    "title": "Butter",
+    "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+    "duration": 164,
+    "album": "Butter",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "001wepyO0z7U9l",
+        "title": "Butter",
+        "artist": "BTS",
+        "album": "Butter",
+        "duration": 167,
+        "score": 97.4,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "004f2tCx16CCOy",
+        "title": "Butter",
+        "artist": "BTS / Megan Thee Stallion",
+        "album": "Butter (feat. Megan Thee Stallion)",
+        "duration": 164,
+        "score": 97.9,
+        "high": false
+      }
+    ],
+    "best": "004f2tCx16CCOy"
+  },
+  {
+    "title": "Butter",
+    "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+    "duration": 164,
+    "album": "Butter",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "001wepyO0z7U9l",
+        "title": "Butter",
+        "artist": "BTS",
+        "album": "Butter",
+        "duration": 164,
+        "score": 99.4,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "004f2tCx16CCOy",
+        "title": "Butter",
+        "artist": "BTS / Megan Thee Stallion",
+        "album": "Butter (feat. Megan Thee Stallion)",
+        "duration": 167,
+        "score": 95.9,
+        "high": true
+      }
+    ],
+    "best": "001wepyO0z7U9l"
+  },
+  {
+    "title": "Butter",
+    "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+    "duration": 184,
+    "album": "Butter",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "001wepyO0z7U9l",
+        "title": "Butter",
+        "artist": "BTS",
+        "album": "Butter",
+        "duration": 164,
+        "score": 83.4,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "004f2tCx16CCOy",
+        "title": "Butter",
+        "artist": "BTS / Megan Thee Stallion",
+        "album": "Butter (feat. Megan Thee Stallion)",
+        "duration": 164,
+        "score": 81.9,
+        "high": true
+      }
+    ],
+    "best": "001wepyO0z7U9l"
+  },
+  {
+    "title": "Butter",
+    "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+    "duration": 164,
+    "album": "Butter",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "001wepyO0z7U9l",
+        "title": "Butter",
+        "artist": "BTS",
+        "album": "Butter",
+        "duration": 166,
+        "score": 99.4,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "004f2tCx16CCOy",
+        "title": "Butter",
+        "artist": "BTS / Megan Thee Stallion",
+        "album": "Butter (feat. Megan Thee Stallion)",
+        "duration": 162,
+        "score": 97.9,
+        "high": true
+      }
+    ],
+    "best": "001wepyO0z7U9l"
+  },
+  {
+    "title": "Butter",
+    "artist": "",
+    "duration": 164,
+    "album": "Butter",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "001wepyO0z7U9l",
+        "title": "Butter",
+        "artist": "BTS",
+        "album": "Butter",
+        "duration": 164,
+        "score": 100,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "004f2tCx16CCOy",
+        "title": "Butter",
+        "artist": "BTS / Megan Thee Stallion",
+        "album": "Butter (feat. Megan Thee Stallion)",
+        "duration": 164,
+        "score": 100,
+        "high": true
+      }
+    ],
+    "best": "001wepyO0z7U9l"
+  },
+  {
+    "title": "Butter",
+    "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+    "duration": 164,
+    "album": "Butter",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "001wepyO0z7U9l",
+        "title": "Butter",
+        "artist": "",
+        "album": "Butter",
+        "duration": 164,
+        "score": 60,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "004f2tCx16CCOy",
+        "title": "Butter",
+        "artist": "BTS / Megan Thee Stallion",
+        "album": "Butter (feat. Megan Thee Stallion)",
+        "duration": 164,
+        "score": 97.9,
+        "high": true
+      }
+    ],
+    "best": "004f2tCx16CCOy"
+  },
+  {
+    "title": "Butter",
+    "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+    "duration": 164,
+    "album": "Butter",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "001wepyO0z7U9l",
+        "title": "Butter",
+        "artist": "BTS",
+        "album": "Butter",
+        "duration": 164,
+        "score": 99.4,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "004f2tCx16CCOy",
+        "title": "Butter",
+        "artist": "",
+        "album": "Butter (feat. Megan Thee Stallion)",
+        "duration": 164,
+        "score": 60,
+        "high": false
+      }
+    ],
+    "best": "001wepyO0z7U9l"
+  },
+  {
+    "title": "Butter",
+    "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+    "duration": 164,
+    "album": "Butter",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "001wepyO0z7U9l",
+        "title": "Butter",
+        "artist": "BTS",
+        "album": "Butter",
+        "duration": 164,
+        "score": 99.4,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "004f2tCx16CCOy",
+        "title": "Butter",
+        "artist": "Another Artist / Megan Thee Stallion",
+        "album": "Butter (feat. Megan Thee Stallion)",
+        "duration": 164,
+        "score": 60,
+        "high": false
+      }
+    ],
+    "best": "001wepyO0z7U9l"
+  },
+  {
+    "title": "Butter",
+    "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+    "duration": 164,
+    "album": "Butter",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "001wepyO0z7U9l",
+        "title": "Butter",
+        "artist": "BTS",
+        "album": "Butter",
+        "duration": 164,
+        "score": 99.4,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "004f2tCx16CCOy",
+        "title": "Butter",
+        "artist": "BTS",
+        "album": "Butter (feat. Megan Thee Stallion)",
+        "duration": 164,
+        "score": 97.9,
+        "high": true
+      }
+    ],
+    "best": "001wepyO0z7U9l"
+  },
+  {
+    "title": "Butter",
+    "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+    "duration": 164,
+    "album": "Butter",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "004f2tCx16CCOy",
+        "title": "Butter",
+        "artist": "BTS / Megan Thee Stallion",
+        "album": "Butter (feat. Megan Thee Stallion)",
+        "duration": 164,
+        "score": 97.9,
+        "high": true
+      }
+    ],
+    "best": "004f2tCx16CCOy"
+  },
+  {
+    "title": "Butter",
+    "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+    "duration": 164,
+    "album": "Butter",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "001wepyO0z7U9l",
+        "title": "Butter",
+        "artist": "BTS",
+        "album": "Butter",
+        "duration": 164,
+        "score": 99.4,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "004f2tCx16CCOy",
+        "title": "Butter",
+        "artist": "BTS / Megan Thee Stallion",
+        "album": "Another Single (feat. Megan Thee Stallion)",
+        "duration": 164,
+        "score": 90.17,
+        "high": false
+      }
+    ],
+    "best": "001wepyO0z7U9l"
+  },
+  {
+    "title": "Butter",
+    "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+    "duration": 164,
+    "album": "Butter",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "001wepyO0z7U9l",
+        "title": "Butter",
+        "artist": "BTS",
+        "album": "Butter",
+        "duration": 164,
+        "score": 99.4,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "004f2tCx16CCOy",
+        "title": "Butter",
+        "artist": "BTS / Megan Thee Stallion",
+        "album": "Butter (feat. Megan Thee Stallion) (Festival Edition)",
+        "duration": 164,
+        "score": 97.9,
+        "high": true
+      }
+    ],
+    "best": "001wepyO0z7U9l"
+  },
+  {
+    "title": "Butter",
+    "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+    "duration": 164,
+    "album": "Butter",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "001wepyO0z7U9l",
+        "title": "Butter",
+        "artist": "BTS",
+        "album": "Butter (Festival Edition)",
+        "duration": 164,
+        "score": 97.9,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "004f2tCx16CCOy",
+        "title": "Butter",
+        "artist": "BTS / Megan Thee Stallion",
+        "album": "Butter (feat. Megan Thee Stallion)",
+        "duration": 164,
+        "score": 97.9,
+        "high": true
+      }
+    ],
+    "best": "001wepyO0z7U9l"
+  },
+  {
+    "title": "Butter",
+    "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+    "duration": 164,
+    "album": "Butter (Archive Collection With Original Studio Recordings From The Complete International Release Catalogue 2025)",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "001wepyO0z7U9l",
+        "title": "Butter",
+        "artist": "BTS",
+        "album": "Butter (Archive Collection With Original Studio Recordings From The Complete International Release Catalogue 2025)",
+        "duration": 164,
+        "score": 99.4,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "004f2tCx16CCOy",
+        "title": "Butter",
+        "artist": "BTS / Megan Thee Stallion",
+        "album": "Butter (feat. Megan Thee Stallion) (Archive Collection With Original Studio Recordings From The Complete International Release Catalogue 2026)",
+        "duration": 164,
+        "score": 97.53,
+        "high": true
+      }
+    ],
+    "best": "001wepyO0z7U9l"
+  },
+  {
+    "title": "Butter",
+    "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+    "duration": 164,
+    "album": "Butter",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "001wepyO0z7U9l",
+        "title": "Butter",
+        "artist": "BTS",
+        "album": "Butter",
+        "duration": 164,
+        "score": 99.4,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "004f2tCx16CCOy",
+        "title": "Butter",
+        "artist": "BTS / Megan Thee Stallion",
+        "album": "Butter (feat. Someone Else)",
+        "duration": 164,
+        "score": 97.9,
+        "high": true
+      }
+    ],
+    "best": "001wepyO0z7U9l"
+  },
+  {
+    "title": "Butter",
+    "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+    "duration": 164,
+    "album": "Butter",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "001wepyO0z7U9l",
+        "title": "Butter",
+        "artist": "BTS",
+        "album": "Butter",
+        "duration": 164,
+        "score": 99.4,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "004f2tCx16CCOy",
+        "title": "Butter",
+        "artist": "BTS / Megan Thee Stallion",
+        "album": "Butter (feat. Megan Thee StallionX)",
+        "duration": 164,
+        "score": 97.9,
+        "high": true
+      }
+    ],
+    "best": "001wepyO0z7U9l"
+  },
+  {
+    "title": "Butter",
+    "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+    "duration": 164,
+    "album": "Butter",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "001wepyO0z7U9l",
+        "title": "Butter",
+        "artist": "BTS",
+        "album": "Butter",
+        "duration": 164,
+        "score": 99.4,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "004f2tCx16CCOy",
+        "title": "Butter",
+        "artist": "BTS / Megan Thee Stallion / Another Guest",
+        "album": "Butter (feat. Megan Thee Stallion)",
+        "duration": 164,
+        "score": 97.9,
+        "high": true
+      }
+    ],
+    "best": "001wepyO0z7U9l"
+  },
+  {
+    "title": "Butter",
+    "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+    "duration": 164,
+    "album": "Butter",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "001wepyO0z7U9l",
+        "title": "Butter",
+        "artist": "BTS",
+        "album": "Butter",
+        "duration": 164,
+        "score": 99.4,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "004f2tCx16CCOy",
+        "title": "Butter",
+        "artist": "BTS / Megan Thee Stallion",
+        "album": "Butter (Megan Thee Stallion)",
+        "duration": 164,
+        "score": 97.9,
+        "high": true
+      }
+    ],
+    "best": "001wepyO0z7U9l"
+  },
+  {
+    "title": "Butter",
+    "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+    "duration": 164,
+    "album": "Butter",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "001wepyO0z7U9l",
+        "title": "Butter",
+        "artist": "BTS",
+        "album": "Butter",
+        "duration": 164,
+        "score": 99.4,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "004f2tCx16CCOy",
+        "title": "Butter (Radio Edit)",
+        "artist": "BTS / Megan Thee Stallion",
+        "album": "Butter (feat. Megan Thee Stallion)",
+        "duration": 164,
+        "score": 91.9,
+        "high": true
+      }
+    ],
+    "best": "001wepyO0z7U9l"
+  },
+  {
+    "title": "Butter",
+    "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+    "duration": 164,
+    "album": "Butter",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "001wepyO0z7U9l",
+        "title": "Butter",
+        "artist": "BTS",
+        "album": "Butter",
+        "duration": 164,
+        "score": 99.4,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "004f2tCx16CCOy",
+        "title": "Butterflies",
+        "artist": "BTS / Megan Thee Stallion",
+        "album": "Butter (feat. Megan Thee Stallion)",
+        "duration": 164,
+        "score": 91.9,
+        "high": true
+      }
+    ],
+    "best": "001wepyO0z7U9l"
+  },
+  {
+    "title": "Butter (feat. Megan Thee Stallion)",
+    "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+    "duration": 164,
+    "album": "Butter",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "001wepyO0z7U9l",
+        "title": "Butter",
+        "artist": "BTS",
+        "album": "Butter",
+        "duration": 164,
+        "score": 93.4,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "004f2tCx16CCOy",
+        "title": "Butter",
+        "artist": "BTS / Megan Thee Stallion",
+        "album": "Butter (feat. Megan Thee Stallion)",
+        "duration": 164,
+        "score": 91.9,
+        "high": true
+      }
+    ],
+    "best": "001wepyO0z7U9l"
+  },
+  {
+    "title": "Butter (Japanese ver.)",
+    "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+    "duration": 164,
+    "album": "Butter",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "001wepyO0z7U9l",
+        "title": "Butter",
+        "artist": "BTS",
+        "album": "Butter",
+        "duration": 164,
+        "score": 63.4,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "004f2tCx16CCOy",
+        "title": "Butter",
+        "artist": "BTS / Megan Thee Stallion",
+        "album": "Butter (feat. Megan Thee Stallion)",
+        "duration": 164,
+        "score": 61.9,
+        "high": false
+      }
+    ],
+    "best": "001wepyO0z7U9l"
+  },
+  {
+    "title": "Butter",
+    "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+    "duration": 164,
+    "album": "Butter (feat. Megan Thee Stallion)",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "001wepyO0z7U9l",
+        "title": "Butter",
+        "artist": "BTS",
+        "album": "Butter (feat. Megan Thee Stallion)",
+        "duration": 164,
+        "score": 99.4,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "004f2tCx16CCOy",
+        "title": "Butter",
+        "artist": "BTS / Megan Thee Stallion",
+        "album": "Butter (feat. Megan Thee Stallion)",
+        "duration": 164,
+        "score": 99.4,
+        "high": true
+      }
+    ],
+    "best": "001wepyO0z7U9l"
+  },
+  {
+    "title": "Butter",
+    "artist": "BTS (with Another Guest)",
+    "duration": 164,
+    "album": "Butter",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "001wepyO0z7U9l",
+        "title": "Butter",
+        "artist": "BTS",
+        "album": "Butter",
+        "duration": 164,
+        "score": 99.4,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "004f2tCx16CCOy",
+        "title": "Butter",
+        "artist": "BTS / Megan Thee Stallion",
+        "album": "Butter (feat. Megan Thee Stallion)",
+        "duration": 164,
+        "score": 97.9,
+        "high": true
+      }
+    ],
+    "best": "001wepyO0z7U9l"
+  },
+  {
+    "title": "Butter",
+    "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+    "duration": 164,
+    "album": "Butter",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "001wepyO0z7U9l",
+        "title": "Butter",
+        "artist": "BTS",
+        "album": "Butter",
+        "duration": 164,
+        "score": 99.4,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "004f2tCx16CCOy",
+        "title": "Butter",
+        "artist": "BTS / Megan Thee Stallion (with Another Guest)",
+        "album": "Butter (feat. Megan Thee Stallion)",
+        "duration": 164,
+        "score": 97.9,
+        "high": true
+      }
+    ],
+    "best": "001wepyO0z7U9l"
+  },
+  {
+    "title": "Butter",
+    "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+    "duration": 164,
+    "album": "Butter",
+    "canBind": false,
+    "songs": [
+      {
+        "id": "",
+        "mid": "001wepyO0z7U9l",
+        "title": "Butter",
+        "artist": "BTS (with Another Guest)",
+        "album": "Butter",
+        "duration": 164,
+        "score": 99.4,
+        "high": false
+      },
+      {
+        "id": "",
+        "mid": "004f2tCx16CCOy",
+        "title": "Butter",
+        "artist": "BTS / Megan Thee Stallion",
+        "album": "Butter (feat. Megan Thee Stallion)",
+        "duration": 164,
+        "score": 97.9,
+        "high": true
+      }
+    ],
+    "best": "001wepyO0z7U9l"
+  },
+  {
+    "title": "Butter",
+    "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+    "duration": 164,
+    "album": "Butter",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "001wepyO0z7U9l",
+        "title": "Butter",
+        "artist": "BTS",
+        "album": "Butter",
+        "duration": 166,
+        "score": 99.4,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "004f2tCx16CCOy",
+        "title": "Butter",
+        "artist": "BTS / Megan Thee Stallion",
+        "album": "Butter (feat. Megan Thee Stallion)",
+        "duration": 164,
+        "score": 93.4,
+        "high": false
+      }
+    ],
+    "best": "001wepyO0z7U9l"
+  },
+  {
+    "title": "Butter",
+    "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+    "duration": 164,
+    "album": "Butter",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "001wepyO0z7U9l",
+        "title": "Butter",
+        "artist": "BTS",
+        "album": "Butter",
+        "duration": 164,
+        "score": 99.4,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "004f2tCx16CCOy",
+        "title": "Butter",
+        "artist": "BTS / Megan Thee Stallion",
+        "album": "Butter (feat. Megan Thee Stallion)",
+        "duration": 166,
+        "score": 93.4,
+        "high": false
+      }
+    ],
+    "best": "001wepyO0z7U9l"
+  },
+  {
+    "title": "Butter",
+    "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+    "duration": 164,
+    "album": "Butter",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "001wepyO0z7U9l",
+        "title": "Butter",
+        "artist": "BTS",
+        "album": "Butter",
+        "duration": 162,
+        "score": 99.4,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "004f2tCx16CCOy",
+        "title": "Butter",
+        "artist": "BTS / Megan Thee Stallion",
+        "album": "Butter (feat. Megan Thee Stallion)",
+        "duration": 164,
+        "score": 93.4,
+        "high": false
+      }
+    ],
+    "best": "001wepyO0z7U9l"
+  },
+  {
+    "title": "Butter",
+    "artist": "BTS (\u9632\u5F39\u5C11\u5E74\u56E2)",
+    "duration": 164,
+    "album": "Butter",
+    "canBind": true,
+    "songs": [
+      {
+        "id": "",
+        "mid": "001wepyO0z7U9l",
+        "title": "Butter",
+        "artist": "BTS",
+        "album": "Butter",
+        "duration": 164,
+        "score": 99.4,
+        "high": true
+      },
+      {
+        "id": "",
+        "mid": "004f2tCx16CCOy",
+        "title": "Butter",
+        "artist": "BTS / Megan Thee Stallion",
+        "album": "Butter (feat. Megan Thee Stallion)",
+        "duration": 162,
+        "score": 93.4,
+        "high": false
+      }
+    ],
+    "best": "001wepyO0z7U9l"
+  }
+]

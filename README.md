@@ -1,6 +1,6 @@
 # TaskbarLyrics
 
-**[下载最新版本 → Releases](../../releases/latest)**
+**[下载最新版本 → Releases](https://github.com/persona-li/TaskbarLyrics/releases/latest)**
 
 在 Windows 任务栏上显示歌词，不必切换到播放器，也不需要额外悬浮一个歌词窗口。
 
@@ -56,7 +56,9 @@
 | 安装版 | 运行新版安装包，保留原有设置 | 在 Windows“设置 → 应用 → 已安装的应用”中卸载，可选择是否同时删除个人数据 |
 | 便携版 | 从托盘退出后更新程序文件，保留 `Data` 文件夹 | 如已开启开机启动，先关闭；退出程序后删除整个文件夹 |
 
-安装版的数据保存在 `%LOCALAPPDATA%\TaskbarLyrics`。安装版与便携版不自动迁移彼此的数据。目前没有自动更新，请从 Releases 下载新版。
+新版使用 C++ 和 React，不需要 .NET；主界面需要 Microsoft Edge WebView2 Runtime。便携版解压后运行 `TaskbarLyrics.Native.exe`，保留 `ui`、`licenses` 和 `portable.flag`。
+
+安装版的数据保存在 `%LOCALAPPDATA%\TaskbarLyricsNative`，便携版在同目录 `Data` 中。首次启动会尝试复制旧版设置与缓存，原数据保留。目前没有自动更新，请从 Releases 下载新版。
 
 ## 问题反馈
 
@@ -67,3 +69,13 @@
 - 歌词匹配问题对应的歌名、歌手和专辑。
 
 当前主要在 Windows 11 x64 与 QQ 音乐环境下验证，其他播放器和不同多屏环境的兼容性仍需完善。
+
+## 从源码构建
+
+安装 Visual Studio 的“使用 C++ 的桌面开发”组件、Windows SDK、Node.js 和 PowerShell 7，然后在仓库根目录运行：
+
+```powershell
+pwsh -NoProfile -File eng/build-native.ps1 -Restore
+```
+
+程序输出到 `publish/Release/Native`。安装 Inno Setup 后，运行 `eng/package-native.ps1` 生成便携包和安装包。更多构建与测试说明见 [native/README.md](native/README.md)。
