@@ -1,0 +1,129 @@
+name: Build and release
+
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: build-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: ${{ !startsWith(github.ref, 'refs/tags/') }}
+
+jobs:
+  build:
+    runs-on: windows-2022
+    timeout-minutes: 30
+    defaults:
+      run:
+        shell: pwsh
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: native/ui/package-lock.json
+      - name: Check version consistency
+        env:
+          REF_TYPE: ${{ github.ref_type }}
+          REF_NAME: ${{ github.ref_name }}
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $cmake = Get-Content native/CMakeLists.txt -Raw
+          if ($cmake -notmatch 'project\(TaskbarLyricsNative VERSION (\d+\.\d+\.\d+) ') { throw 'CMake version missing' }
+          $version = $Matches[1]
+          $ui = Get-Content native/ui/package.json -Raw | ConvertFrom-Json
+          $lock = Get-Content native/ui/package-lock.json -Raw | ConvertFrom-Json -AsHashtable
+          if ($ui.version -ne $version -or $lock.version -ne $version -or $lock.packages[''].version -ne $version) {
+            throw 'CMake and UI package versions differ'
+          }
+          $numeric = ($version -replace '\.', ',') + ',0'
+          $rc = Get-Content native/src/resources.rc -Raw
+          if ($rc -notmatch "FILEVERSION $numeric\b" -or $rc -notmatch "PRODUCTVERSION $numeric\b" -or
+              -not $rc.Contains('"FileVersion", "' + $version + '\0"') -or
+              -not $rc.Contains('"ProductVersion", "' + $version + '\0"')) { throw 'EXE resource version differs' }
+          if ($env:REF_TYPE -eq 'tag' -and $env:REF_NAME -ne "v$version") { throw 'Tag must match the source version' }
+      - name: Build and test C++ and React
+        run: ./eng/build-native.ps1 -Restore
+      - name: Build portable ZIP and installer
+        run: ./eng/package-native.ps1
+      - name: Check package contents and write checksums
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $packages = @(Get-ChildItem publish/Release -File | Where-Object { $_.Name -match '^TaskbarLyrics-Native-v\d+\.\d+\.\d+-win-x64-(portable\.zip|setup\.exe)$' })
+          if ($packages.Count -ne 2) { throw 'Expected one portable ZIP and one installer' }
+          $zipFile = $packages | Where-Object Extension -eq '.zip'
+          $zip = [IO.Compression.ZipFile]::OpenRead($zipFile.FullName)
+          try {
+            $names = @($zip.Entries.FullName)
+            if ($names | Where-Object { $_ -match '(?i)(^|/)(Data|Logs|Cache|WebView|node_modules)(/|$)|\.(pdb|log|pfx|key)$' }) {
+              throw 'Private data or debug files found in package'
+            }
+            foreach ($required in @('TaskbarLyrics.Native.exe','portable.flag','ui/index.html')) {
+              if ($required -notin $names) { throw "Portable file missing: $required" }
+            }
+          } finally { $zip.Dispose() }
+          $lines = $packages | Sort-Object Name | ForEach-Object {
+            $hash = (Get-FileHash -LiteralPath $_.FullName -Algorithm SHA256).Hash.ToLowerInvariant()
+            "$hash  $($_.Name)"
+          }
+          [IO.File]::WriteAllText((Join-Path (Get-Location) 'publish/Release/SHA256SUMS.txt'), ($lines -join "`n") + "`n", [Text.Encoding]::ASCII)
+      - name: Upload distribution files
+        uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6
+        with:
+          name: windows-x64-packages
+          path: |
+            publish/Release/*-portable.zip
+            publish/Release/*-setup.exe
+            publish/Release/SHA256SUMS.txt
+          if-no-files-found: error
+          retention-days: 14
+
+  release:
+    if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags/v')
+    needs: build
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53 # v6
+        with:
+          name: windows-x64-packages
+          path: packages
+      - name: Publish tagged release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          RELEASE_TAG: ${{ github.ref_name }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          [[ "$RELEASE_TAG" =~ ^v[0-9]+\.[0-9]+\.[0-9]+$ ]]
+          cd packages
+          sha256sum --check SHA256SUMS.txt
+          cat > "$RUNNER_TEMP/release-notes.md" <<'NOTES'
+          安装版：下载 `setup.exe`，双击安装。
+          便携版：下载 `portable.zip`，完整解压后运行 `TaskbarLyrics.Native.exe`。
+
+          两个版本均不需要 .NET；主界面需要 Microsoft Edge WebView2 Runtime。
+          发布文件由 GitHub Actions 从此标签对应源码构建，附带 SHA-256 校验值。
+          NOTES
+          if gh release view "$RELEASE_TAG" --json isDraft > "$RUNNER_TEMP/release-state.json" 2>/dev/null; then
+            if ! jq -e '.isDraft == true' "$RUNNER_TEMP/release-state.json" > /dev/null; then
+              echo 'Release is already public; existing downloads will not be overwritten.'
+              exit 1
+            fi
+          else
+            gh release create "$RELEASE_TAG" --verify-tag --draft --title "TaskbarLyrics $RELEASE_TAG" --notes-file "$RUNNER_TEMP/release-notes.md"
+          fi
+          gh release upload "$RELEASE_TAG" ./*-portable.zip ./*-setup.exe SHA256SUMS.txt --clobber
+          gh release edit "$RELEASE_TAG" --draft=false

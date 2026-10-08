@@ -10,7 +10,8 @@ foreach ($name in @('README.md','native/CMakeLists.txt','native/app.manifest','n
     'native/ui/package.json','native/ui/package-lock.json','native/ui/tsconfig.json','native/ui/index.html',
     'eng/build-native.ps1','eng/package-native.ps1','eng/installer-native.iss',
     'eng/test-installer-native.ps1','eng/test-native-window.ps1','eng/export-public.ps1',
-    'eng/ChineseSimplified.isl','eng/THIRD_PARTY.md')) { $files.Add($name) }
+    'eng/ChineseSimplified.isl','eng/THIRD_PARTY.md',
+    '.github/workflows/build.yml')) { $files.Add($name) }
 $groups = @{
     'native/src' = @('.cpp','.hpp','.rc')
     'native/assets' = @('.ico')

@@ -36,3 +36,11 @@ CTest 覆盖配色、字幕同步、任务栏布局、播放时钟、设置迁�
 Windows 的缩略图外框由系统控制；不同屏幕缩放、任务栏布局、播放器实现及 Explorer 重启仍应进行实机回归，自动化结果不代表所有系统组合都经过验证。
 
 依赖许可证见 `licenses`。版本固定在 `package-lock.json` 和构建脚本中。
+
+## GitHub Actions
+
+提交到 `main`、提出 Pull Request 或手动运行 Actions，都会在 Windows 云端机器上编译 C++ / React、运行离线测试并生成安装版与便携版。构建文件可在对应运行的 Artifacts 中下载。
+
+发布时，先统一 `native/CMakeLists.txt`、`native/src/resources.rc`、`native/ui/package.json` 和 `package-lock.json` 中的版本，再推送对应的 `vX.Y.Z` 标签。标签必须与源码版本相同；测试和打包通过后，Actions 自动创建 Release 并上传安装包、便携包和 SHA-256 校验值。普通提交和手动构建不会发布，已公开的 Release 不会被覆盖。
+
+云端运行离线测试，不执行需要交互桌面、真实播放器或任务栏的窗口测试；这些检查仍需本机完成。
